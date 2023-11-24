@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "inter-bold";
+    src: url("../font/Inter-Bold.ttf");
+}
+@font-face {
+    font-family: "inter-light";
+    src: url("../font/Inter-Light.ttf");
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url("../font/Inter-Regular.ttf");
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url("../font/Inter-Medium.ttf");
+}
+@font-face {
+    font-family: "inter-semibold";
+    src: url("../font/Inter-SemiBold.ttf");
+}
+$title-size-1:3.7rem;//59px
+$title-size-2:3rem;//49px
+$title-size-3:2.65rem;//49px
+$text-size-1:1.875rem;//30px
+$text-size-2:1.563rem;//25px
+$text-size-3:1.4rem;//20px
+$text-size-4:1.25rem;//20px
+$text-size-5:1.125rem;//20px
+$color-blanco:#fff;
+$color-mute:#c5c5c5c0;
+$color-rojo:#C80C10;
+$color-azul:#004990;
+$color-gris:#808080;
+
+p,span,a,button,h1,h2,h3,h4,h5{
+    font-family: "inter-regular";
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+html { font-size: 100%; }
+@media screen and (min-width: 300px) and (max-width: 767.9px){
+    html { font-size: 52%; }
+}
+@media screen and (min-width: 768px) and (max-width: 999.9px){
+    html { font-size: 75%; }
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    html { font-size: 90%; }
+}

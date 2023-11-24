@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "inter-bold";
+  src: url("../font/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: "inter-light";
+  src: url("../font/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "inter-regular";
+  src: url("../font/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "inter-medium";
+  src: url("../font/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "inter-semibold";
+  src: url("../font/Inter-SemiBold.ttf");
+}
+p, span, a, button, h1, h2, h3, h4, h5 {
+  font-family: "inter-regular";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.9px) {
+  html {
+    font-size: 52%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 999.9px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  html {
+    font-size: 90%;
+  }
+}
+header {
+  background-color: #004990;
+}
+header .banner {
+  padding-top: 15px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .banner .col {
+  margin-left: 8%;
+}
+header .banner .col span {
+  font-size: 0.75rem;
+  font-weight: light;
+  color: rgba(197, 197, 197, 0.7529411765);
+}
+header .banner .col p {
+  font-size: 0.95rem;
+  color: #fff;
+}
+header nav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+}
+header nav .logo_home {
+  height: 60px;
+}
+header nav .item_logo_oro {
+  margin-right: 100px;
+}
+header nav .item_logo_oro .logo_oro {
+  height: 70px;
+}
+header nav li.dropdown img {
+  height: 25px;
+}
+header nav li.dropdown .dropdown-toggle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+header nav li.dropdown .dropdown-toggle svg {
+  border: 1px #C80C10 solid;
+  border-radius: 100%;
+  padding: 3px 3px;
+  color: #C80C10;
+}
+header nav li.dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+footer {
+  background-color: #F5F3EB;
+  padding-top: 5rem;
+}
+footer .contenedor {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5rem;
+  /*1° columna*/
+  /*2° columna*/
+  /*3° columna*/
+}
+footer .contenedor .logo {
+  height: 95px;
+}
+footer .contenedor .row {
+  margin-top: 3rem;
+}
+footer .contenedor a {
+  text-decoration: none;
+}
+footer .contenedor .subtitle {
+  color: #004990;
+  font-size: 1.2rem;
+  font-family: "inter-medium";
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+footer .contenedor .enviar {
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "inter-light";
+  border: 2px #C80C10 solid;
+  border-radius: 15px;
+  padding: 3px 15px;
+  color: #C80C10;
+  margin-top: 0.2rem;
+  display: inline-block;
+}
+footer .contenedor .acceso {
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "inter-light";
+  border: 2px #C80C10 solid;
+  border-radius: 15px;
+  padding: 3px 25px;
+  color: #C80C10;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+footer .contenedor .social {
+  margin-bottom: 1rem;
+}
+footer .contenedor .social svg {
+  color: #C80C10;
+  margin-right: 0.75rem;
+}
+footer .contenedor .mail svg {
+  color: #C80C10;
+}
+footer .contenedor .mail span {
+  color: #808080;
+}
+footer .contenedor .text {
+  color: #808080;
+}
+footer .contenedor .links {
+  font-family: "inter-light";
+  font-size: 1.05rem;
+  color: #004990;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: block;
+}
+footer .mini-banner {
+  background-color: #004990;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 10px;
+}
+footer .mini-banner p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+footer .mini-banner img {
+  height: 3.5rem;
+}
+
+@media (max-width: 767px) {
+  footer {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  footer .contenedor {
+    /*1° columna*/
+    /*2° columna*/
+    /*3° columna*/
+  }
+  footer .contenedor .row .col-12 {
+    margin-bottom: 3rem;
+  }
+  footer .contenedor .subtitle {
+    font-size: 1.875rem;
+  }
+  footer .contenedor .mail {
+    font-size: 1.563rem;
+  }
+  footer .contenedor .text {
+    font-size: 1.563rem;
+  }
+  footer .contenedor .links {
+    font-size: 1.4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

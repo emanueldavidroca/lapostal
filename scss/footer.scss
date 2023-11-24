@@ -1,0 +1,151 @@
+footer{
+    background-color: #F5F3EB;
+    padding-top: 5rem;
+    
+    .contenedor{
+        padding-left:20%;
+        padding-right:20%;
+        padding-bottom: 5rem;
+        .logo{
+            height: 95px;
+        }
+        .row{
+            margin-top: 3rem;
+        }
+        a{
+            text-decoration: none;
+        }
+        .subtitle{
+            color:$color-azul;
+            font-size: 1.2rem;
+            font-family: "inter-medium";
+            font-weight: 400;
+            margin-bottom: 0.3rem;
+        }
+        .enviar{
+            font-size: 0.9rem;
+            font-weight: bold;
+            font-family: "inter-light";
+            border:2px $color-rojo solid;
+            border-radius: 15px;
+            padding: 3px 15px;
+            color:$color-rojo;
+            margin-top: 0.2rem;
+            display: inline-block;
+        }
+        .acceso{
+            font-size: 0.9rem;
+            font-weight: bold;
+            font-family: "inter-light";
+            border:2px $color-rojo solid;
+            border-radius: 15px;
+            padding: 3px 25px;
+            color:$color-rojo;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+        
+        /*1° columna*/
+    
+        .social{
+            margin-bottom: 1rem;
+            svg{
+                color: $color-rojo;
+                margin-right: 0.75rem;
+            }
+        }
+        .mail{
+            svg{
+                color: $color-rojo;
+
+            }
+            span{
+                color:$color-gris;
+            }
+        }
+        /*2° columna*/
+        .text{
+            color: $color-gris;
+        }
+        /*3° columna*/
+        .links{
+            font-family: "inter-light";
+            font-size: 1.05rem;
+            color: $color-azul;
+            font-weight: bold;
+            margin-top: 1rem;
+            display: block;
+        }
+    }
+    .mini-banner{
+        background-color: $color-azul;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 10px;
+        p{
+            color: $color-blanco;
+            font-size: 1.2rem;
+        }
+        img{
+            height: 3.5rem;
+        }
+    }
+}
+@media (max-width:767px){
+    footer{
+        font-size: $text-size-3;
+        text-align: center;
+        .contenedor{
+            .logo{
+
+            }
+            .row{
+                .col-12{
+                    margin-bottom:3rem;
+                }
+            }
+            a{
+
+            }
+            .subtitle{
+                font-size: $text-size-1;
+            }
+            .enviar{
+
+            }
+            .acceso{
+
+            }
+            
+            /*1° columna*/
+        
+            .social{
+
+                svg{
+
+                }
+            }
+            .mail{
+                font-size: $text-size-2;
+                svg{
+    
+                }
+                span{
+
+                }
+            }
+            /*2° columna*/
+            .text{
+                font-size: $text-size-2;
+            }
+            /*3° columna*/
+            .links{
+                font-size: $text-size-3;
+
+            }
+        }
+    }
+}

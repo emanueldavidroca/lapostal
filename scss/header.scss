@@ -1,0 +1,56 @@
+header{
+    background-color: $color-azul;
+    .banner{
+        padding-top: 15px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        .col{
+            margin-left: 8%;
+            span{
+                font-size: 0.75rem;
+                font-weight: light;
+                color: $color-mute;
+            }
+            p{
+                font-size: 0.95rem;
+                color: $color-blanco;
+            }
+        }
+    }
+    nav{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+        .logo_home{
+            height: 60px;
+        }
+        .item_logo_oro{
+            margin-right: 100px;
+            .logo_oro{
+                height: 70px;
+            }
+        }
+        li.dropdown{
+            img{
+                height: 25px;
+            }
+            
+            .dropdown-toggle{
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                svg{
+                    border: 1px $color-rojo solid;
+                    border-radius: 100%;
+                    padding: 3px 3px;
+                    color: $color-rojo;
+                }
+            }
+            .dropdown-toggle::after{
+                display: none;
+            }
+        }
+    }
+}
