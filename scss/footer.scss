@@ -54,7 +54,7 @@ footer{
                 margin-right: 0.75rem;
             }
         }
-        .mail{
+        .mail,.phone{
             svg{
                 color: $color-rojo;
 
@@ -75,6 +75,9 @@ footer{
             font-weight: bold;
             margin-top: 1rem;
             display: block;
+            .logo-navegar{
+                height: 25px;
+            }
         }
     }
     .mini-banner{
@@ -128,7 +131,7 @@ footer{
 
                 }
             }
-            .mail{
+            .mail,.phone{
                 font-size: $text-size-2;
                 svg{
     

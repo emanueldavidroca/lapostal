@@ -20,7 +20,7 @@
   src: url("../font/Inter-SemiBold.ttf");
 }
 p, span, a, button, h1, h2, h3, h4, h5 {
-  font-family: "inter-regular";
+  font-family: "arial";
 }
 
 html, body {
@@ -104,6 +104,27 @@ header nav li.dropdown .dropdown-toggle::after {
   display: none;
 }
 
+#section-index-hero {
+  background-image: url("../img/hero_img.jpg");
+  background-size: cover;
+  min-height: 700px;
+  padding-top: 8rem;
+}
+#section-index-hero .container {
+  margin-left: 50%;
+}
+#section-index-hero .container .title {
+  font-size: 3.7rem;
+  color: #fff;
+  font-weight: 1000;
+  line-height: normal;
+}
+#section-index-hero .container .subtitle {
+  font-size: 1.563rem;
+  color: #fff;
+  width: 45%;
+}
+
 footer {
   background-color: #F5F3EB;
   padding-top: 5rem;
@@ -161,10 +182,10 @@ footer .contenedor .social svg {
   color: #C80C10;
   margin-right: 0.75rem;
 }
-footer .contenedor .mail svg {
+footer .contenedor .mail svg, footer .contenedor .phone svg {
   color: #C80C10;
 }
-footer .contenedor .mail span {
+footer .contenedor .mail span, footer .contenedor .phone span {
   color: #808080;
 }
 footer .contenedor .text {
@@ -177,6 +198,9 @@ footer .contenedor .links {
   font-weight: bold;
   margin-top: 1rem;
   display: block;
+}
+footer .contenedor .links .logo-navegar {
+  height: 25px;
 }
 footer .mini-banner {
   background-color: #004990;
@@ -211,7 +235,7 @@ footer .mini-banner img {
   footer .contenedor .subtitle {
     font-size: 1.875rem;
   }
-  footer .contenedor .mail {
+  footer .contenedor .mail, footer .contenedor .phone {
     font-size: 1.563rem;
   }
   footer .contenedor .text {
