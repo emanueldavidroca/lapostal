@@ -1,19 +1,21 @@
 #section-index-hero{
     background-image: url("../img/hero_img.jpg");
     background-size: cover;
-    min-height: 700px;
+    min-height: 465px;
     padding-top: 8rem;
     .container{
-        margin-left: 50%;
+        margin-left: 47%;
         .title{
-            font-size: $title-size-1;
+            font-size: $title-size-2;
             color: $color-blanco;
             font-weight: 1000;
-            line-height: normal;
+            line-height: 3.15rem;
+            margin-bottom: 1.5rem;
         }
         .subtitle{
             font-size: $text-size-2;
             color: $color-blanco;
+            line-height: initial;
             width: 45%;
         }
     }

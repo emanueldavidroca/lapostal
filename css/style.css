@@ -75,12 +75,12 @@ header .banner .col {
   margin-left: 8%;
 }
 header .banner .col span {
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.85);
 }
 header .banner .col p {
-  font-size: 0.95rem;
+  font-size: 0.86rem;
   color: #fff;
   margin-top: -3px;
 }
@@ -147,22 +147,48 @@ header nav li.dropdown .dropdown-toggle::after {
 #section-index-hero {
   background-image: url("../img/hero_img.jpg");
   background-size: cover;
-  min-height: 700px;
+  min-height: 465px;
   padding-top: 8rem;
 }
 #section-index-hero .container {
-  margin-left: 50%;
+  margin-left: 47%;
 }
 #section-index-hero .container .title {
-  font-size: 3.7rem;
+  font-size: 3rem;
   color: #fff;
   font-weight: 1000;
-  line-height: normal;
+  line-height: 3.15rem;
+  margin-bottom: 1.5rem;
 }
 #section-index-hero .container .subtitle {
   font-size: 1.563rem;
   color: #fff;
+  line-height: initial;
   width: 45%;
+}
+
+#section-acceso-clientes .banner {
+  background-image: url("../img/acceso_clientes.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+}
+#section-acceso-clientes .banner span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+#section-acceso-clientes .banner a {
+  color: #fff;
+  background-color: #C80C10;
+  border-radius: 0.6rem;
+  font-size: 1.875rem;
 }
 
 footer {
@@ -223,7 +249,7 @@ footer .contenedor .mail span, footer .contenedor .phone span {
 }
 footer .contenedor .direccion .subtitle {
   color: #C80C10;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-family: "inter-medium";
   font-weight: 500;
   line-height: initial;
@@ -237,7 +263,7 @@ footer .contenedor .direccion span {
   margin-bottom: -1px;
 }
 footer .contenedor .unite {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
   color: #004990;
   font-size: 1rem;
   font-family: "inter-medium";

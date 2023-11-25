@@ -1,0 +1,25 @@
+#section-acceso-clientes{
+    .banner{
+        background-image: url("../img/acceso_clientes.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 2rem 3rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 80%;
+        margin: auto;
+        span{
+            font-size: $title-size-2;
+            font-weight: bold;
+            color: $color-blanco;
+        }
+        a{
+            color: $color-blanco;
+            background-color: $color-rojo;
+            border-radius:0.6rem;
+            font-size: $text-size-1;
+        }
+    }
+}
