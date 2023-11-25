@@ -8,7 +8,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        width: 80%;
+        width: 72%;
         margin: auto;
         span{
             font-size: $title-size-2;
@@ -21,5 +21,58 @@
             border-radius:0.6rem;
             font-size: $text-size-1;
         }
+    }
+    .row{
+        width: 72%;
+        margin: auto;
+        .columna-1 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
+        }
+        .columna-2 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-2.jpg");
+        }
+        .columna-3 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-3.jpg");
+        }
+        .columna-4 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-4.jpg");
+        }
+        .columna-5 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-5.jpg");
+        }
+        .columna-6 a{
+            background-image: url("../img/acceso-cliente/LaPostal-img-6.jpg");
+        }
+        .col-4{
+            
+        }
+        a{
+            display: flex;
+            align-items: end;
+            text-decoration: none;
+            background-size: cover;
+            min-height: 280px;
+            background-repeat: no-repeat;
+            padding: 0.5rem 0.75rem;
+            position: relative;
+            .logo-hybrin{
+                width: 40px;
+            }
+            svg{
+                position: absolute;
+                right: 1.25rem;
+                bottom: 1.75rem;
+                border: 1px $color-blanco solid;
+                padding: 0.6rem 0.85rem;
+                color: $color-blanco;
+                border-radius: 100%;
+            }
+            span{
+                color: $color-blanco;
+                font-weight: bold;
+                font-size: $text-size-5;
+            }
+        }
+        
     }
 }
