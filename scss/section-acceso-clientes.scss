@@ -1,4 +1,5 @@
 #section-acceso-clientes{
+    margin-top: 3rem;
     .banner{
         background-image: url("../img/acceso_clientes.png");
         background-size: contain;
@@ -10,10 +11,12 @@
         gap: 1rem;
         width: 72%;
         margin: auto;
+        margin-bottom: 2rem;
         span{
             font-size: $title-size-2;
             font-weight: bold;
             color: $color-blanco;
+            line-height: initial;
         }
         a{
             color: $color-blanco;
@@ -22,9 +25,10 @@
             font-size: $text-size-1;
         }
     }
-    .row{
-        width: 72%;
+    .cartas.row{
+        width: 73.5%;
         margin: auto;
+        margin-bottom: 4rem;
         .columna-1 a{
             background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
         }
@@ -42,9 +46,6 @@
         }
         .columna-6 a{
             background-image: url("../img/acceso-cliente/LaPostal-img-6.jpg");
-        }
-        .col-4{
-            
         }
         a{
             display: flex;
@@ -74,5 +75,32 @@
             }
         }
         
+    }
+    .unimos{
+        margin: auto;
+        width: 72%;
+        .title{
+            color: $color-azul;
+            font-size: 2.65rem;
+            font-weight: 1000;
+            line-height: 2.35rem;
+        }
+        .text{
+            color: $color-gris;
+            font-size: $text-size-4;
+            line-height: $text-size-4;
+            width: 85%;
+            margin-bottom: 0.85rem;
+        }
+        .btn{
+            color: $color-blanco;
+            background-color: $color-rojo;
+            border-radius:2rem;
+            font-size: $text-size-3;
+            padding: 0.2rem 1.2rem;
+        }
+        img{
+            width: 100%;
+        }
     }
 }
