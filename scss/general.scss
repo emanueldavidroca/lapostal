@@ -26,11 +26,22 @@ $text-size-2:1.563rem;//25px
 $text-size-3:1.4rem;//20px
 $text-size-4:1.25rem;//20px
 $text-size-5:1.125rem;//20px
+$text-size-6:1.05rem;//20px
 $color-blanco:#fff;
-$color-mute:#c5c5c5c0;
+$color-mute:rgba(255, 255, 255, 0.85);
 $color-rojo:#C80C10;
 $color-azul:#004990;
 $color-gris:#808080;
+
+.texto-blanco{
+    color: $color-blanco;
+}
+.texto-rojo{
+    color: $color-rojo;
+}
+.texto-azul{
+    color: $color-azul;
+}
 
 p,span,a,button,h1,h2,h3,h4,h5{
     font-family: "arial";

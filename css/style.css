@@ -19,6 +19,18 @@
   font-family: "inter-semibold";
   src: url("../font/Inter-SemiBold.ttf");
 }
+.texto-blanco {
+  color: #fff;
+}
+
+.texto-rojo {
+  color: #C80C10;
+}
+
+.texto-azul {
+  color: #004990;
+}
+
 p, span, a, button, h1, h2, h3, h4, h5 {
   font-family: "arial";
 }
@@ -63,19 +75,34 @@ header .banner .col {
   margin-left: 8%;
 }
 header .banner .col span {
-  font-size: 0.75rem;
-  font-weight: light;
-  color: rgba(197, 197, 197, 0.7529411765);
+  font-size: 0.82rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
 }
 header .banner .col p {
   font-size: 0.95rem;
   color: #fff;
+  margin-top: -3px;
+}
+header .banner .col:last-child span {
+  margin-left: 25px;
 }
 header nav {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -40px;
+}
+header nav .container-fluid {
+  padding-left: 6rem;
+  padding-right: 2rem;
+}
+header nav .container-fluid #tres_barra {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+header nav .container-fluid #tres_barra svg {
+  font-size: 2.75rem;
 }
 header nav .logo_home {
   height: 60px;
@@ -84,10 +111,23 @@ header nav .item_logo_oro {
   margin-right: 100px;
 }
 header nav .item_logo_oro .logo_oro {
-  height: 70px;
+  height: 80px;
 }
-header nav li.dropdown img {
+header nav li.dropdown {
+  display: flex;
+  align-items: center;
+}
+header nav li.dropdown a {
+  color: #004990;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+header nav li.dropdown a img {
   height: 25px;
+  margin-right: 10px;
+}
+header nav li.dropdown a svg {
+  margin-left: 10px;
 }
 header nav li.dropdown .dropdown-toggle {
   display: flex;
@@ -130,15 +170,19 @@ footer {
   padding-top: 5rem;
 }
 footer .contenedor {
-  padding-left: 20%;
-  padding-right: 20%;
+  position: relative;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-bottom: 5rem;
   /*1° columna*/
   /*2° columna*/
   /*3° columna*/
 }
-footer .contenedor .logo {
-  height: 95px;
+footer .contenedor #data-fiscal {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  width: 90px;
 }
 footer .contenedor .row {
   margin-top: 3rem;
@@ -146,34 +190,23 @@ footer .contenedor .row {
 footer .contenedor a {
   text-decoration: none;
 }
-footer .contenedor .subtitle {
+footer .contenedor .title {
   color: #004990;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-family: "inter-medium";
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 0.3rem;
 }
-footer .contenedor .enviar {
-  font-size: 0.9rem;
-  font-weight: bold;
-  font-family: "inter-light";
-  border: 2px #C80C10 solid;
-  border-radius: 15px;
-  padding: 3px 15px;
-  color: #C80C10;
-  margin-top: 0.2rem;
-  display: inline-block;
+footer .contenedor .logo-oro {
+  margin-bottom: 1.5rem;
+  width: 70%;
 }
-footer .contenedor .acceso {
-  font-size: 0.9rem;
-  font-weight: bold;
-  font-family: "inter-light";
-  border: 2px #C80C10 solid;
-  border-radius: 15px;
-  padding: 3px 25px;
-  color: #C80C10;
-  margin-top: 0.5rem;
-  display: inline-block;
+footer .contenedor .seguinos {
+  color: #004990;
+  font-size: 1.05rem;
+  font-family: "inter-medium";
+  font-weight: 300;
+  margin-bottom: 0.3rem;
 }
 footer .contenedor .social {
   margin-bottom: 1rem;
@@ -188,35 +221,95 @@ footer .contenedor .mail svg, footer .contenedor .phone svg {
 footer .contenedor .mail span, footer .contenedor .phone span {
   color: #808080;
 }
+footer .contenedor .direccion .subtitle {
+  color: #C80C10;
+  font-size: 0.95rem;
+  font-family: "inter-medium";
+  font-weight: 500;
+  line-height: initial;
+  margin-top: 0.65rem;
+}
+footer .contenedor .direccion span {
+  line-height: initial;
+  font-size: 0.92rem;
+  color: #808080;
+  display: block;
+  margin-bottom: -1px;
+}
+footer .contenedor .unite {
+  margin-top: 6rem;
+  color: #004990;
+  font-size: 1rem;
+  font-family: "inter-medium";
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+footer .contenedor .enviar {
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "inter-light";
+  border: 2px #C80C10 solid;
+  border-radius: 15px;
+  padding: 3px 15px;
+  color: #C80C10;
+  margin-top: 0.2rem;
+  display: inline-block;
+}
 footer .contenedor .text {
   color: #808080;
+  font-weight: bold;
+  line-height: initial;
+}
+footer .contenedor .enacom {
+  margin-top: 1rem;
+}
+footer .contenedor .enacom a {
+  line-height: initial;
+  font-size: 0.92rem;
+  color: #808080;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 footer .contenedor .links {
   font-family: "inter-light";
-  font-size: 1.05rem;
+  font-size: 0.85rem;
   color: #004990;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 0.65rem;
   display: block;
 }
 footer .contenedor .links .logo-navegar {
-  height: 25px;
+  height: 22px;
 }
 footer .mini-banner {
   background-color: #004990;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  gap: 10px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  overflow: hidden;
+  position: relative;
+}
+footer .mini-banner .fondo-rojo {
+  width: 78%;
+  background-color: #C80C10;
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  height: calc(100% + 20px);
+  margin-top: -10px;
 }
 footer .mini-banner p {
+  z-index: 3;
   color: #fff;
-  font-size: 1.2rem;
-}
-footer .mini-banner img {
-  height: 3.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {

@@ -3,11 +3,16 @@ footer{
     padding-top: 5rem;
     
     .contenedor{
-        padding-left:20%;
-        padding-right:20%;
+        position: relative;
+        padding-left:8%;
+        padding-right:8%;
         padding-bottom: 5rem;
-        .logo{
-            height: 95px;
+        #data-fiscal{
+            position: absolute;
+            bottom: 3rem;
+            right: 3rem;
+            width: 90px;
+
         }
         .row{
             margin-top: 3rem;
@@ -15,11 +20,68 @@ footer{
         a{
             text-decoration: none;
         }
-        .subtitle{
+        .title{
             color:$color-azul;
-            font-size: 1.2rem;
+            font-size: $text-size-6;
             font-family: "inter-medium";
-            font-weight: 400;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+        }
+
+        /*1° columna*/
+        .logo-oro{
+            margin-bottom: 1.5rem;
+            width: 70%;
+        }
+        .seguinos{
+            color:$color-azul;
+            font-size: 1.05rem;
+            font-family: "inter-medium";
+            font-weight: 300;
+            margin-bottom: 0.3rem;
+        }
+        .social{
+            margin-bottom: 1rem;
+            svg{
+                color: $color-rojo;
+                margin-right: 0.75rem;
+            }
+        }
+        
+        .mail,.phone{
+            svg{
+                color: $color-rojo;
+
+            }
+            span{
+                color:$color-gris;
+            }
+        }
+        .direccion{
+            .subtitle{
+                color:$color-rojo;
+                font-size: 0.95rem;
+                font-family: "inter-medium";
+                font-weight: 500;
+                line-height: initial;
+                margin-top: 0.65rem;
+            }
+            span{
+                line-height: initial;
+                font-size: 0.92rem;
+                color:$color-gris;
+                display: block;
+                margin-bottom: -1px;
+            }
+            
+        }
+        /*2° columna*/
+        .unite{
+            margin-top: 6rem;
+            color:$color-azul;
+            font-size: 1rem;
+            font-family: "inter-medium";
+            font-weight: bold;
             margin-bottom: 0.3rem;
         }
         .enviar{
@@ -33,50 +95,32 @@ footer{
             margin-top: 0.2rem;
             display: inline-block;
         }
-        .acceso{
-            font-size: 0.9rem;
-            font-weight: bold;
-            font-family: "inter-light";
-            border:2px $color-rojo solid;
-            border-radius: 15px;
-            padding: 3px 25px;
-            color:$color-rojo;
-            margin-top: 0.5rem;
-            display: inline-block;
-        }
-        
-        /*1° columna*/
-    
-        .social{
-            margin-bottom: 1rem;
-            svg{
-                color: $color-rojo;
-                margin-right: 0.75rem;
-            }
-        }
-        .mail,.phone{
-            svg{
-                color: $color-rojo;
-
-            }
-            span{
-                color:$color-gris;
-            }
-        }
-        /*2° columna*/
         .text{
             color: $color-gris;
+            font-weight: bold;
+            line-height: initial;
+        }
+        .enacom{
+            margin-top: 1rem;
+            a{
+                line-height: initial;
+                font-size: 0.92rem;
+                color:$color-gris;
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
         }
         /*3° columna*/
         .links{
             font-family: "inter-light";
-            font-size: 1.05rem;
+            font-size: 0.85rem;
             color: $color-azul;
             font-weight: bold;
-            margin-top: 1rem;
+            margin-top: 0.65rem;
             display: block;
             .logo-navegar{
-                height: 25px;
+                height: 22px;
             }
         }
     }
@@ -85,15 +129,29 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        gap: 10px;
-        p{
-            color: $color-blanco;
-            font-size: 1.2rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        overflow: hidden;
+        position: relative;
+        .fondo-rojo{
+            width: 78%;
+            background-color: $color-rojo;
+            border-top-right-radius: 2.5rem;
+            border-bottom-right-radius: 2.5rem;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+            height: calc(100% + 20px);
+            margin-top: -10px;
+
         }
-        img{
-            height: 3.5rem;
+        p{
+            z-index: 3;
+            color: $color-blanco;
+            font-size: 1.1rem;
+            margin-bottom: 0px;
+            font-weight: bold;
         }
     }
 }

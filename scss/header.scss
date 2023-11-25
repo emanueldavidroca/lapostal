@@ -8,14 +8,18 @@ header{
         .col{
             margin-left: 8%;
             span{
-                font-size: 0.75rem;
-                font-weight: light;
+                font-size: 0.82rem;
+                font-weight: 300;
                 color: $color-mute;
             }
             p{
                 font-size: 0.95rem;
                 color: $color-blanco;
+                margin-top: -3px;
             }
+        }
+        .col:last-child span{
+            margin-left: 25px;
         }
     }
     nav{
@@ -23,18 +27,40 @@ header{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -40px;
+        .container-fluid{
+            padding-left: 6rem;
+            padding-right: 2rem;
+            #tres_barra{
+                padding-left: 2rem;
+                padding-right: 2rem;
+                svg{
+                    font-size: 2.75rem;
+                }
+            }
+        }
         .logo_home{
             height: 60px;
         }
         .item_logo_oro{
             margin-right: 100px;
             .logo_oro{
-                height: 70px;
+                height: 80px;
             }
         }
         li.dropdown{
-            img{
-                height: 25px;
+            display: flex;
+            align-items: center;
+            a{
+                color: $color-azul;
+                font-size: $text-size-5;
+                font-weight: 500;
+                img{
+                    height: 25px;
+                    margin-right: 10px;
+                }
+                svg{
+                    margin-left: 10px;
+                }
             }
             
             .dropdown-toggle{
