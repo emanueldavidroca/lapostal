@@ -1,0 +1,105 @@
+#section-conectamos{
+    .banner-1{
+        background-color: $color-azul;
+        padding: 1rem 0;
+        .row{
+            width: 72%;
+            margin: auto;
+            text-align: center;
+            p{
+                margin: 0rem;
+                line-height: initial;
+                font-weight: 1000;
+                font-size: $text-size-1;
+                color: $color-blanco;
+            }
+            span{
+                font-size: $text-size-2;
+
+                color: $color-blanco;
+
+            }
+        }
+    }
+    .content{
+        .columna-1{
+            article{
+                width: 60%;
+                margin-right: 0;
+                margin-left: auto;
+                h3{
+                    font-size: $text-size-2;
+                    font-weight: bold;
+                    color: $color-azul;
+                    margin-bottom: 2rem;
+                }
+                .btn{
+                    border-radius: 0.75rem;
+                    background-color: $color-azul;
+                    padding: 1rem;
+                    margin-bottom: 1.5rem;
+                    color: $color-blanco;
+                    font-size: $text-size-5;
+                    font-weight: 500;
+                } 
+            }
+            
+        }
+        .columna-2{
+            
+        }
+    }
+    .banner-2{
+        background-color: $color-azul;
+        padding: 1.25rem 0;
+        position: relative;
+        overflow: hidden;
+        .row{
+            position: relative;
+            z-index: 3;
+            width: 72%;
+            margin: auto;
+            p{
+                margin: 0 0 0.75rem;
+                line-height: initial;
+                font-weight: bold;
+                font-size: $text-size-5;
+                color: $color-blanco;
+            }
+            span{
+                font-size: $text-size-6;
+                color: $color-blanco;
+                line-height: initial;
+
+            }
+            .col-md-4{
+                display: flex;
+                align-items: center;
+                .btn{
+                    background-color: $color-blanco;
+                    color:$color-rojo;
+                    font-weight: 500;
+                    font-size: $text-size-5;
+                    border-radius: 2rem;
+                }
+            }
+            
+        }
+        .fondo-rojo{
+            width: 42%;
+            background-color: $color-rojo;
+            border-top-left-radius: 4rem;
+            border-bottom-left-radius: 4rem;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index: 2;
+            height: calc(100% + 20px);
+            margin-top: -10px;
+
+        }
+    }
+    .banner-3{
+
+    }
+}

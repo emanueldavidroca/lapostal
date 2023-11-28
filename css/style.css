@@ -169,6 +169,7 @@ header nav li.dropdown .dropdown-toggle::after {
 
 #section-acceso-clientes {
   margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 #section-acceso-clientes .banner {
   background-image: url("../img/acceso_clientes.png");
@@ -273,6 +274,93 @@ header nav li.dropdown .dropdown-toggle::after {
   width: 100%;
 }
 
+#section-conectamos .banner-1 {
+  background-color: #004990;
+  padding: 1rem 0;
+}
+#section-conectamos .banner-1 .row {
+  width: 72%;
+  margin: auto;
+  text-align: center;
+}
+#section-conectamos .banner-1 .row p {
+  margin: 0rem;
+  line-height: initial;
+  font-weight: 1000;
+  font-size: 1.875rem;
+  color: #fff;
+}
+#section-conectamos .banner-1 .row span {
+  font-size: 1.563rem;
+  color: #fff;
+}
+#section-conectamos .content .columna-1 article {
+  width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+}
+#section-conectamos .content .columna-1 article h3 {
+  font-size: 1.563rem;
+  font-weight: bold;
+  color: #004990;
+  margin-bottom: 2rem;
+}
+#section-conectamos .content .columna-1 article .btn {
+  border-radius: 0.75rem;
+  background-color: #004990;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+#section-conectamos .banner-2 {
+  background-color: #004990;
+  padding: 1.25rem 0;
+  position: relative;
+  overflow: hidden;
+}
+#section-conectamos .banner-2 .row {
+  position: relative;
+  z-index: 3;
+  width: 72%;
+  margin: auto;
+}
+#section-conectamos .banner-2 .row p {
+  margin: 0 0 0.75rem;
+  line-height: initial;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #fff;
+}
+#section-conectamos .banner-2 .row span {
+  font-size: 1.05rem;
+  color: #fff;
+  line-height: initial;
+}
+#section-conectamos .banner-2 .row .col-md-4 {
+  display: flex;
+  align-items: center;
+}
+#section-conectamos .banner-2 .row .col-md-4 .btn {
+  background-color: #fff;
+  color: #C80C10;
+  font-weight: 500;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+}
+#section-conectamos .banner-2 .fondo-rojo {
+  width: 42%;
+  background-color: #C80C10;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  height: calc(100% + 20px);
+  margin-top: -10px;
+}
 footer {
   background-color: #F5F3EB;
   padding-top: 5rem;
