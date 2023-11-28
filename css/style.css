@@ -308,7 +308,7 @@ header nav li.dropdown .dropdown-toggle::after {
   font-weight: 1000;
   color: #004990;
   line-height: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   width: 90%;
   margin-left: auto;
 }
@@ -317,7 +317,7 @@ header nav li.dropdown .dropdown-toggle::after {
   border-radius: 0.75rem;
   background-color: #004990;
   padding: 0.75rem 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   color: #fff;
   font-size: 1.05rem;
   font-weight: 500;
@@ -331,14 +331,14 @@ header nav li.dropdown .dropdown-toggle::after {
   position: relative;
 }
 #section-conectamos .content .columna-2 div {
-  margin-top: 5rem;
+  margin-top: 13rem;
   background-color: #fff;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   position: relative;
   z-index: 3;
-  width: 65%;
+  width: 75%;
 }
 #section-conectamos .content .columna-2 div img {
   width: 70px;
@@ -346,17 +346,19 @@ header nav li.dropdown .dropdown-toggle::after {
 }
 #section-conectamos .content .columna-2 div p {
   padding-left: 4.5rem;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
   color: #808080;
   font-size: 1.05rem;
   font-weight: 500;
-  line-height: initial;
+  line-height: 1.2rem;
+  margin: 0.75rem 0;
 }
 #section-conectamos .content .columna-2 div .btn {
-  font-size: 1rem;
+  font-size: 0.8rem;
   border: 2px #C80C10 solid;
   border-radius: 1.25rem;
-  margin-left: 4rem;
+  margin-left: 4.5rem;
+  padding: 0.2rem 0.75rem;
   color: #C80C10;
 }
 #section-conectamos .content .columna-2 article {

@@ -35,7 +35,7 @@
                     font-weight: 1000;
                     color: $color-azul;
                     line-height: $title-size-4;
-                    margin-bottom: 2rem;
+                    margin-bottom: 3rem;
                     width: 90%;
                     margin-left: auto;
                 }
@@ -44,7 +44,7 @@
                     border-radius: 0.75rem;
                     background-color: $color-azul;
                     padding: 0.75rem 1rem;
-                    margin-bottom: 0.75rem;
+                    margin-bottom: 1rem;
                     color: $color-blanco;
                     font-size: $text-size-6;
                     font-weight: 500;
@@ -60,31 +60,33 @@
         .columna-2{
             position: relative;
             div{
-                margin-top: 5rem;
+                margin-top: 13rem;
                 background-color: $color-blanco;
                 border-top-right-radius: 1rem;
                 border-bottom-right-radius: 1rem;
-                padding: 1rem 0;
+                padding: 1.5rem 0;
                 position: relative;
                 z-index: 3;
-                width: 65%;
+                width: 75%;
                 img{
                     width: 70px;
                     margin-left: 3rem;
                 }
                 p{
                     padding-left: 4.5rem;
-                    padding-right: 1rem;
+                    padding-right: 1.5rem;
                     color: $color-gris;
                     font-size: 1.05rem;
                     font-weight: 500;
-                    line-height: initial;
+                    line-height: 1.2rem;
+                    margin: 0.75rem 0;
                 }
                 .btn{
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                     border: 2px $color-rojo solid;
                     border-radius: 1.25rem;
-                    margin-left: 4rem;
+                    margin-left: 4.5rem;
+                    padding: 0.2rem 0.75rem;
                     color: $color-rojo;
                 }
             }
