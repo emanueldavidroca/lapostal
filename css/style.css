@@ -294,25 +294,81 @@ header nav li.dropdown .dropdown-toggle::after {
   font-size: 1.563rem;
   color: #fff;
 }
+#section-conectamos .content .columna-1 {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
 #section-conectamos .content .columna-1 article {
   width: 60%;
   margin-right: 0;
   margin-left: auto;
 }
 #section-conectamos .content .columna-1 article h3 {
-  font-size: 1.563rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 1000;
   color: #004990;
+  line-height: 2rem;
   margin-bottom: 2rem;
+  width: 90%;
+  margin-left: auto;
 }
 #section-conectamos .content .columna-1 article .btn {
+  display: flex;
   border-radius: 0.75rem;
   background-color: #004990;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
   color: #fff;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-weight: 500;
+  width: 24rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0;
+}
+#section-conectamos .content .columna-2 {
+  position: relative;
+}
+#section-conectamos .content .columna-2 div {
+  margin-top: 5rem;
+  background-color: #fff;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem 0;
+  position: relative;
+  z-index: 3;
+  width: 65%;
+}
+#section-conectamos .content .columna-2 div img {
+  width: 70px;
+  margin-left: 3rem;
+}
+#section-conectamos .content .columna-2 div p {
+  padding-left: 4.5rem;
+  padding-right: 1rem;
+  color: #808080;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: initial;
+}
+#section-conectamos .content .columna-2 div .btn {
+  font-size: 1rem;
+  border: 2px #C80C10 solid;
+  border-radius: 1.25rem;
+  margin-left: 4rem;
+  color: #C80C10;
+}
+#section-conectamos .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+  background-image: url("../img/conectamos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #section-conectamos .banner-2 {
   background-color: #004990;

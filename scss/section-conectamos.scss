@@ -22,30 +22,84 @@
         }
     }
     .content{
+        
         .columna-1{
+            padding-top: 5rem;
+            padding-bottom: 8rem;
             article{
                 width: 60%;
                 margin-right: 0;
                 margin-left: auto;
                 h3{
-                    font-size: $text-size-2;
-                    font-weight: bold;
+                    font-size: $title-size-4;
+                    font-weight: 1000;
                     color: $color-azul;
+                    line-height: $title-size-4;
                     margin-bottom: 2rem;
+                    width: 90%;
+                    margin-left: auto;
                 }
                 .btn{
+                    display: flex;
                     border-radius: 0.75rem;
                     background-color: $color-azul;
-                    padding: 1rem;
-                    margin-bottom: 1.5rem;
+                    padding: 0.75rem 1rem;
+                    margin-bottom: 0.75rem;
                     color: $color-blanco;
-                    font-size: $text-size-5;
+                    font-size: $text-size-6;
                     font-weight: 500;
+                    width: 24rem;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: 0;
                 } 
             }
             
         }
         .columna-2{
+            position: relative;
+            div{
+                margin-top: 5rem;
+                background-color: $color-blanco;
+                border-top-right-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                padding: 1rem 0;
+                position: relative;
+                z-index: 3;
+                width: 65%;
+                img{
+                    width: 70px;
+                    margin-left: 3rem;
+                }
+                p{
+                    padding-left: 4.5rem;
+                    padding-right: 1rem;
+                    color: $color-gris;
+                    font-size: 1.05rem;
+                    font-weight: 500;
+                    line-height: initial;
+                }
+                .btn{
+                    font-size: 1rem;
+                    border: 2px $color-rojo solid;
+                    border-radius: 1.25rem;
+                    margin-left: 4rem;
+                    color: $color-rojo;
+                }
+            }
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 90%;
+                margin-left: auto;
+                background-image: url("../img/conectamos.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
             
         }
     }
