@@ -173,8 +173,8 @@ header nav li.dropdown .dropdown-toggle::after {
 }
 #section-acceso-clientes .banner {
   background-image: url("../img/acceso_clientes.png");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
   padding: 2rem 3rem;
   display: flex;
@@ -399,6 +399,7 @@ header nav li.dropdown .dropdown-toggle::after {
 #section-conectamos .banner-2 .row .col-md-4 {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 #section-conectamos .banner-2 .row .col-md-4 .btn {
   background-color: #fff;
@@ -419,6 +420,47 @@ header nav li.dropdown .dropdown-toggle::after {
   height: calc(100% + 20px);
   margin-top: -10px;
 }
+#section-conectamos .banner-3 {
+  padding: 2.25rem 0;
+  position: relative;
+  overflow: hidden;
+}
+#section-conectamos .banner-3 .row {
+  position: relative;
+  z-index: 3;
+  width: 72%;
+  margin: auto;
+}
+#section-conectamos .banner-3 .row .columna-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+#section-conectamos .banner-3 .row .columna-1 img {
+  height: 50px;
+}
+#section-conectamos .banner-3 .row .columna-1 p {
+  margin: 0 0 0.75rem;
+  line-height: 1.563rem;
+  font-weight: 1000;
+  font-size: 1.563rem;
+  color: #004990;
+}
+#section-conectamos .banner-3 .row .columna-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#section-conectamos .banner-3 .row .columna-2 .btn {
+  font-size: 0.8rem;
+  border: 2px #C80C10 solid;
+  border-radius: 1.25rem;
+  margin-left: 1.5rem;
+  padding: 0.2rem 0.75rem;
+  color: #C80C10;
+}
+
 footer {
   background-color: #F5F3EB;
   padding-top: 5rem;
