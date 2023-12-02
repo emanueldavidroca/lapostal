@@ -88,6 +88,8 @@ header .banner .col:last-child span {
   margin-left: 25px;
 }
 header nav {
+  z-index: 1;
+  position: relative;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -633,6 +635,207 @@ footer .mini-banner p {
   footer .contenedor .links {
     font-size: 1.4rem;
   }
+}
+#section-quienes_somos-1 {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section-quienes_somos-1 .content .columna-1 {
+  position: relative;
+  padding-bottom: 8rem;
+}
+#section-quienes_somos-1 .content .columna-1 article {
+  width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section-quienes_somos-1 .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section-quienes_somos-1 .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section-quienes_somos-1 .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section-quienes_somos-1 .content .columna-1 div {
+  background-color: rgb(206, 41, 110);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  top: 18rem;
+  z-index: 3;
+  width: 72%;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+}
+#section-quienes_somos-1 .content .columna-1 div p {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0.75rem 0;
+}
+#section-quienes_somos-1 .content .columna-2 {
+  position: relative;
+}
+#section-quienes_somos-1 .content .columna-2 div {
+  margin-top: 18rem;
+  margin-bottom: 10rem;
+  background-color: #fff;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+  width: 44%;
+  height: 22rem;
+}
+#section-quienes_somos-1 .content .columna-2 div p {
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
+  color: #808080;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0.75rem 0;
+}
+#section-quienes_somos-1 .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/quienes_somos1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section-quienes_somos-1 .content .columna-3 {
+  position: relative;
+}
+#section-quienes_somos-1 .content .columna-3 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/conectamos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section-quienes_somos-1 .content .columna-4 {
+  position: relative;
+  padding-bottom: 8rem;
+  padding-left: 3rem;
+}
+#section-quienes_somos-1 .content .columna-4 article {
+  width: 78%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+#section-quienes_somos-1 .content .columna-4 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 1.2rem;
+  margin-top: 3rem;
+  padding-right: 2rem;
+}
+#section-quienes_somos-1 .content .columna-4 article p {
+  color: #808080;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-right: 6rem;
+}
+#section-quienes_somos-1 .content .columna-4 article div {
+  padding: 0;
+  color: #C80C10;
+  font-size: 1.563rem;
+  font-weight: 1000;
+}
+#section-quienes_somos-1 .content .columna-4 article div hr {
+  width: 74%;
+  display: block;
+  border-top-width: 2px;
+  border-color: #C80C10;
+  opacity: 1;
+  margin-bottom: 1.5rem;
+}
+#section-quienes_somos-1 .content .columna-4 article div span {
+  border-radius: 1.5rem;
+  border: 1px #C80C10 solid;
+  padding: 0.45rem 0.8rem;
+}
+#section-quienes_somos-1 .banner-1 {
+  background-color: #004990;
+  padding: 2rem 0;
+  border-bottom: 1.5rem #C80C10 solid;
+}
+#section-quienes_somos-1 .banner-1 .row {
+  width: 72%;
+  margin: auto;
+  text-align: center;
+}
+#section-quienes_somos-1 .banner-1 .row .col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#section-quienes_somos-1 .banner-1 .row .col p {
+  margin: 0rem;
+  line-height: initial;
+  font-weight: 1000;
+  font-size: 1.875rem;
+  color: #fff;
+}
+#section-quienes_somos-1 .banner-1 .row .col span {
+  font-size: 1.563rem;
+  line-height: initial;
+  color: #fff;
+}
+#section-quienes_somos-1 .paragraphs {
+  text-align: center;
+  padding: 5rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 1000;
+}
+#section-quienes_somos-1 .paragraphs .blue {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #004990;
+}
+#section-quienes_somos-1 .paragraphs .red {
+  margin-top: 3rem;
+  width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #C80C10;
 }
 
 /*# sourceMappingURL=style.css.map */

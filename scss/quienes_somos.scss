@@ -1,0 +1,220 @@
+#section-quienes_somos-1{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        
+        .columna-1{
+            position: relative;
+            padding-bottom: 8rem;
+            article{
+                width: 60%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                
+                p{
+                    color: $color-azul;
+                    font-size: 0.9rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+                    margin-bottom: 3rem;
+                    margin-top: 3rem;
+                    padding-right: 2rem;
+                    width: 100%;
+                    margin-left: auto;
+                    text-align: end;
+                }
+            }
+            div{
+                background-color: $color-rosa;
+                
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                padding:0;
+                position: absolute;
+                right: 0px;
+                top: 18rem;
+                z-index: 3;
+                width: 72%;
+                height: 22rem;
+                display: flex;
+                align-items: center;
+                p{
+                    padding-left: 3.5rem;
+                    padding-right: 3.5rem;
+                    color: $color-blanco;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.2rem;
+                    margin: 0.75rem 0;
+                }
+            }
+            
+        }
+        .columna-2{
+            position: relative;
+            div{
+                margin-top: 18rem;
+                margin-bottom: 10rem;
+                background-color: $color-blanco;
+                border-top-right-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                padding:0;
+                display: flex;
+                align-items: center;
+                position: relative;
+                z-index: 3;
+                width: 44%;
+                height: 22rem;
+                p{
+                    padding-left: 2.5rem;
+                    padding-right: 3.5rem;
+                    color: $color-gris;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.2rem;
+                    margin: 0.75rem 0;
+                }
+            }
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/quienes_somos1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+            
+        }
+        .columna-3{
+            position: relative;
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/conectamos.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+        }
+        .columna-4{
+            position: relative;
+            padding-bottom: 8rem;
+            padding-left: 3rem;
+            article{
+                width: 78%;
+                margin-left: 0;
+                margin-right: auto;
+                margin-top: 6rem;
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+                    margin-bottom: 1.2rem;
+                    margin-top: 3rem;
+                    padding-right: 2rem;
+                }
+                p{
+                    color: $color-gris;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    padding-right: 6rem;
+                }
+                div{
+                    padding:0;
+                    color: $color-rojo;
+                    font-size: $text-size-2;
+                    font-weight: 1000;
+                    hr{
+                        width: 74%;
+                        display: block;
+                        border-top-width: 2px;
+                        border-color: $color-rojo;
+                        opacity: 1;
+                        margin-bottom: 1.5rem;
+                    }
+                    span{
+                        border-radius: 1.5rem;
+                        border: 1px $color-rojo solid;
+                        padding: 0.45rem 0.8rem;
+                    
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    .banner-1{
+        background-color: $color-azul;
+        padding: 2rem 0;
+        border-bottom: 1.5rem $color-rojo solid;
+        .row{
+            width: 72%;
+            margin: auto;
+            text-align: center;
+            .col{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    margin: 0rem;
+                    line-height: initial;
+                    font-weight: 1000;
+                    font-size: $text-size-1;
+                    color: $color-blanco;
+                }
+                span{
+                    font-size: $text-size-2;
+                    line-height: initial;
+                    color: $color-blanco;
+    
+                }
+            }
+            
+        }
+    }
+    .paragraphs{
+        text-align: center;
+        padding: 5rem;
+        
+        font-size: 2.0rem;
+        line-height: 2.2rem;
+        font-weight: 1000;
+        .blue{
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            color: $color-azul;
+        }
+        .red{
+            margin-top: 3rem;
+            width: 56%;
+            margin-left: auto;
+            margin-right: auto;
+            color: $color-rojo;
+
+        }
+        
+    }
+
+}
