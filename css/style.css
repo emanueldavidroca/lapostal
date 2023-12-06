@@ -465,7 +465,7 @@ header nav li.dropdown .dropdown-toggle::after {
 
 footer {
   background-color: #F5F3EB;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 footer .contenedor {
   position: relative;
@@ -636,30 +636,30 @@ footer .mini-banner p {
     font-size: 1.4rem;
   }
 }
-#section-quienes_somos-1 {
+#section_quienes-somos-1 {
   background-color: #fff;
   position: relative;
   z-index: 0;
 }
-#section-quienes_somos-1 .content .columna-1 {
+#section_quienes-somos-1 .content .columna-1 {
   position: relative;
   padding-bottom: 8rem;
 }
-#section-quienes_somos-1 .content .columna-1 article {
+#section_quienes-somos-1 .content .columna-1 article {
   width: 60%;
   margin-right: 0;
   margin-left: auto;
   margin-top: 4rem;
 }
-#section-quienes_somos-1 .content .columna-1 article p {
+#section_quienes-somos-1 .content .columna-1 article p {
   color: #004990;
   font-size: 0.9rem;
   font-weight: 1000;
 }
-#section-quienes_somos-1 .content .columna-1 article p span {
+#section_quienes-somos-1 .content .columna-1 article p span {
   color: #C80C10;
 }
-#section-quienes_somos-1 .content .columna-1 article h3 {
+#section_quienes-somos-1 .content .columna-1 article h3 {
   font-size: 2rem;
   font-weight: 1000;
   color: #004990;
@@ -671,7 +671,7 @@ footer .mini-banner p {
   margin-left: auto;
   text-align: end;
 }
-#section-quienes_somos-1 .content .columna-1 div {
+#section_quienes-somos-1 .content .columna-1 div {
   background-color: rgb(206, 41, 110);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -685,7 +685,7 @@ footer .mini-banner p {
   display: flex;
   align-items: center;
 }
-#section-quienes_somos-1 .content .columna-1 div p {
+#section_quienes-somos-1 .content .columna-1 div p {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
   color: #fff;
@@ -694,10 +694,10 @@ footer .mini-banner p {
   line-height: 1.2rem;
   margin: 0.75rem 0;
 }
-#section-quienes_somos-1 .content .columna-2 {
+#section_quienes-somos-1 .content .columna-2 {
   position: relative;
 }
-#section-quienes_somos-1 .content .columna-2 div {
+#section_quienes-somos-1 .content .columna-2 div {
   margin-top: 18rem;
   margin-bottom: 10rem;
   background-color: #fff;
@@ -711,7 +711,7 @@ footer .mini-banner p {
   width: 44%;
   height: 22rem;
 }
-#section-quienes_somos-1 .content .columna-2 div p {
+#section_quienes-somos-1 .content .columna-2 div p {
   padding-left: 2.5rem;
   padding-right: 3.5rem;
   color: #808080;
@@ -720,7 +720,7 @@ footer .mini-banner p {
   line-height: 1.2rem;
   margin: 0.75rem 0;
 }
-#section-quienes_somos-1 .content .columna-2 article {
+#section_quienes-somos-1 .content .columna-2 article {
   z-index: 1;
   right: 0px;
   position: absolute;
@@ -731,10 +731,10 @@ footer .mini-banner p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#section-quienes_somos-1 .content .columna-3 {
+#section_quienes-somos-1 .content .columna-3 {
   position: relative;
 }
-#section-quienes_somos-1 .content .columna-3 article {
+#section_quienes-somos-1 .content .columna-3 article {
   z-index: 1;
   right: 0px;
   position: absolute;
@@ -745,18 +745,18 @@ footer .mini-banner p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#section-quienes_somos-1 .content .columna-4 {
+#section_quienes-somos-1 .content .columna-4 {
   position: relative;
   padding-bottom: 8rem;
   padding-left: 3rem;
 }
-#section-quienes_somos-1 .content .columna-4 article {
+#section_quienes-somos-1 .content .columna-4 article {
   width: 78%;
   margin-left: 0;
   margin-right: auto;
   margin-top: 6rem;
 }
-#section-quienes_somos-1 .content .columna-4 article h3 {
+#section_quienes-somos-1 .content .columna-4 article h3 {
   font-size: 2rem;
   font-weight: 1000;
   color: #004990;
@@ -765,19 +765,19 @@ footer .mini-banner p {
   margin-top: 3rem;
   padding-right: 2rem;
 }
-#section-quienes_somos-1 .content .columna-4 article p {
+#section_quienes-somos-1 .content .columna-4 article p {
   color: #808080;
   font-size: 1.1rem;
   font-weight: 500;
   padding-right: 6rem;
 }
-#section-quienes_somos-1 .content .columna-4 article div {
+#section_quienes-somos-1 .content .columna-4 article div {
   padding: 0;
   color: #C80C10;
   font-size: 1.563rem;
   font-weight: 1000;
 }
-#section-quienes_somos-1 .content .columna-4 article div hr {
+#section_quienes-somos-1 .content .columna-4 article div hr {
   width: 74%;
   display: block;
   border-top-width: 2px;
@@ -785,57 +785,579 @@ footer .mini-banner p {
   opacity: 1;
   margin-bottom: 1.5rem;
 }
-#section-quienes_somos-1 .content .columna-4 article div span {
+#section_quienes-somos-1 .content .columna-4 article div span {
   border-radius: 1.5rem;
   border: 1px #C80C10 solid;
   padding: 0.45rem 0.8rem;
 }
-#section-quienes_somos-1 .banner-1 {
+#section_quienes-somos-1 .banner-1 {
   background-color: #004990;
   padding: 2rem 0;
   border-bottom: 1.5rem #C80C10 solid;
 }
-#section-quienes_somos-1 .banner-1 .row {
+#section_quienes-somos-1 .banner-1 .row {
   width: 72%;
   margin: auto;
   text-align: center;
 }
-#section-quienes_somos-1 .banner-1 .row .col {
+#section_quienes-somos-1 .banner-1 .row .col {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-#section-quienes_somos-1 .banner-1 .row .col p {
+#section_quienes-somos-1 .banner-1 .row .col p {
   margin: 0rem;
   line-height: initial;
   font-weight: 1000;
   font-size: 1.875rem;
   color: #fff;
 }
-#section-quienes_somos-1 .banner-1 .row .col span {
+#section_quienes-somos-1 .banner-1 .row .col span {
   font-size: 1.563rem;
   line-height: initial;
   color: #fff;
 }
-#section-quienes_somos-1 .paragraphs {
+#section_quienes-somos-1 .paragraphs {
   text-align: center;
   padding: 5rem;
   font-size: 2rem;
   line-height: 2.2rem;
   font-weight: 1000;
 }
-#section-quienes_somos-1 .paragraphs .blue {
+#section_quienes-somos-1 .paragraphs .blue {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
   color: #004990;
 }
-#section-quienes_somos-1 .paragraphs .red {
+#section_quienes-somos-1 .paragraphs .red {
   margin-top: 3rem;
   width: 56%;
   margin-left: auto;
   margin-right: auto;
   color: #C80C10;
+}
+
+#section_logistica-outsourcing {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_logistica-outsourcing .content .columna-1 {
+  position: relative;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_logistica-outsourcing .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_logistica-outsourcing .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_logistica-outsourcing .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_logistica-outsourcing .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_logistica-outsourcing .content .columna-1 .parrafo-rojo {
+  background-color: rgb(206, 41, 110);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0;
+  margin-left: auto;
+  width: 72%;
+  height: 24rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+#section_logistica-outsourcing .content .columna-1 .parrafo-rojo p {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0;
+}
+#section_logistica-outsourcing .content .columna-1 .contenedor-botones {
+  margin-left: auto;
+  width: 70%;
+}
+#section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
+  border-radius: 1.5rem;
+  color: #C80C10;
+  border: 1px #C80C10 solid;
+  padding: 0.25rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-bottom: 0.6rem;
+}
+#section_logistica-outsourcing .content .columna-2 {
+  position: relative;
+}
+#section_logistica-outsourcing .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/logistica-outsourcing.jpg");
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section_correo {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_correo .content .columna-1 {
+  position: relative;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_correo .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_correo .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_correo .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_correo .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_correo .content .columna-1 .parrafo-rojo {
+  background-color: rgb(206, 41, 110);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0;
+  margin-left: auto;
+  width: 72%;
+  height: 14rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+#section_correo .content .columna-1 .parrafo-rojo p {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0;
+}
+#section_correo .content .columna-1 .contenedor-botones {
+  margin-left: auto;
+  width: 70%;
+  margin-top: 1.5rem;
+}
+#section_correo .content .columna-1 .contenedor-botones .btn {
+  display: flex;
+  border-radius: 0.75rem;
+  background-color: #004990;
+  padding: 0.9rem 0.85rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  width: 26rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#section_correo .content .columna-2 {
+  position: relative;
+}
+#section_correo .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/conectamos.jpg");
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section_logistica-liviana-mensajeria {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 {
+  position: relative;
+  padding-bottom: 8rem;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 article {
+  width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-top: 3rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 article > span {
+  font-weight: 600;
+  color: #C80C10;
+  font-size: 1.125rem;
+  text-align: right;
+  display: block;
+  line-height: initial;
+  margin-top: 1rem;
+  padding-right: 1.75rem;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 div {
+  background-color: #0691aa;
+  border-top-left-radius: 1rem;
+  flex-direction: column;
+  border-bottom-left-radius: 1rem;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  top: 20rem;
+  z-index: 3;
+  width: 66%;
+  height: 20rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 div h3 {
+  text-align: start;
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 3.5rem;
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 div p {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0.45rem 0;
+}
+#section_logistica-liviana-mensajeria .content .columna-1 div button {
+  margin-top: 0.5rem;
+  background-color: #C80C10;
+  color: #fff;
+  border-radius: 1.5rem;
+  margin-left: 3.5rem;
+  font-size: 1.05rem;
+  padding: 0.3rem 1.2rem;
+}
+#section_logistica-liviana-mensajeria .content .columna-2 {
+  position: relative;
+}
+#section_logistica-liviana-mensajeria .content .columna-2 div {
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  background-color: rgba(200, 12, 15, 0.7058823529);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+  width: 66%;
+  height: 20rem;
+}
+#section_logistica-liviana-mensajeria .content .columna-2 div h3 {
+  text-align: start;
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2.5rem;
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .content .columna-2 div p {
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0.45rem 0;
+}
+#section_logistica-liviana-mensajeria .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/quienes_somos1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section_logistica-liviana-mensajeria .ventajas {
+  width: 80%;
+  margin: 5rem auto;
+}
+#section_logistica-liviana-mensajeria .ventajas h3 {
+  font-size: 2rem;
+  color: #004990;
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .ventajas div {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+#section_logistica-liviana-mensajeria .ventajas div img {
+  align-self: center;
+  width: 70px;
+  display: inline-block;
+}
+#section_logistica-liviana-mensajeria .ventajas div p {
+  line-height: initial;
+  margin: 0;
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #004990;
+  font-weight: 600;
+}
+#section_logistica-liviana-mensajeria .ventajas div p span {
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .entrega {
+  width: 80%;
+  margin: 0 auto 5rem;
+}
+#section_logistica-liviana-mensajeria .entrega h2 {
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  color: #C80C10;
+  font-weight: 1000;
+}
+#section_logistica-liviana-mensajeria .entrega p {
+  width: 64%;
+  font-size: 1.125rem;
+  line-height: initial;
+  font-weight: 500;
+  color: #808080;
+  margin-left: 0.5rem;
+}
+
+#section_lectura-inteligente {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_lectura-inteligente .content .columna-1 {
+  position: relative;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_lectura-inteligente .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_lectura-inteligente .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_lectura-inteligente .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_lectura-inteligente .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_lectura-inteligente .content .columna-1 .contenedor-botones {
+  margin-left: auto;
+  width: 70%;
+  margin-top: 1.5rem;
+}
+#section_lectura-inteligente .content .columna-1 .contenedor-botones .btn {
+  display: flex;
+  border-radius: 0.75rem;
+  background-color: #004990;
+  padding: 0.9rem 0.85rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  width: 26rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#section_lectura-inteligente .content .columna-2 {
+  position: relative;
+}
+#section_lectura-inteligente .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/lectura_inteligente.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section_central-monitoreo {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_central-monitoreo .content .columna-1 {
+  position: relative;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_central-monitoreo .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_central-monitoreo .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_central-monitoreo .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_central-monitoreo .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_central-monitoreo .content .columna-1 .parrafo {
+  margin-left: auto;
+  width: 74%;
+  text-align: end;
+  font-size: 1.25rem;
+  line-height: initial;
+  color: #C80C10;
+  margin-bottom: 5rem;
+  padding-right: 2rem;
+}
+#section_central-monitoreo .content .columna-1 div {
+  margin-left: auto;
+  width: 74%;
+}
+#section_central-monitoreo .content .columna-1 div input {
+  margin-top: 1rem;
+  border: 1px #C80C10 solid;
+  width: 70%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+#section_central-monitoreo .content .columna-1 div input::placeholder {
+  color: #C80C10;
+}
+#section_central-monitoreo .content .columna-1 div button {
+  margin-top: 2rem;
+  padding: 0rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #C80C10;
+}
+#section_central-monitoreo .content .columna-2 {
+  position: relative;
+}
+#section_central-monitoreo .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/central_monitoreo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */

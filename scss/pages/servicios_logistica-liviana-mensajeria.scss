@@ -1,0 +1,187 @@
+#section_logistica-liviana-mensajeria{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        .columna-1{
+            position: relative;
+            padding-bottom: 8rem;
+            article{
+                width: 60%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                p{
+                    color: $color-azul;
+                    font-size: 0.9rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+
+                    margin-top: 3rem;
+                    padding-right: 2rem;
+                    width: 100%;
+                    margin-left: auto;
+                    text-align: end;
+                }
+                > span{
+                    font-weight: 600;
+                    color: $color-rojo;
+                    font-size: $text-size-5;
+                    text-align: right;
+                    display: block;
+                    line-height: initial;
+                    margin-top: 1rem;
+                    padding-right: 1.75rem;
+                }
+            }
+            div{
+                background-color: $color-celeste;
+                border-top-left-radius: 1rem;
+                flex-direction: column;
+                border-bottom-left-radius: 1rem;
+                padding:0;
+                position: absolute;
+                right: 0px;
+                top: 20rem;
+                z-index: 3;
+                width: 66%;
+                height: 20rem;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                h3{
+                    text-align: start;
+                    color: $color-blanco;
+                    font-size: $title-size-4;
+                    padding-left: 3.5rem;
+                    font-weight: 1000;
+                }
+                p{
+                    padding-left: 3.5rem;
+                    padding-right: 3.5rem;
+                    color: $color-blanco;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.2rem;
+                    margin: 0.45rem 0;
+                }
+                button{
+                    margin-top: 0.5rem;
+                    background-color: $color-rojo;
+                    color: $color-blanco;
+                    border-radius: 1.5rem;
+                    margin-left: 3.5rem;
+                    font-size: $text-size-6;
+                    padding:0.3rem 1.2rem ;
+                }
+            }
+        }
+        .columna-2{
+            position: relative;
+            div{
+                margin-top: 20rem;
+                margin-bottom: 10rem;
+                background-color: $color-rojo-transparente;
+                border-top-right-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                padding:0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                position: relative;
+                z-index: 3;
+                width: 66%;
+                height: 20rem;
+                h3{
+                    text-align: start;
+                    color: $color-blanco;
+                    font-size: $title-size-4;
+                    padding-left: 2.5rem;
+                    font-weight: 1000;
+                }
+                p{
+                    padding-left: 2.5rem;
+                    padding-right: 3.5rem;
+                    color: $color-blanco;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.2rem;
+                    margin: 0.45rem 0;
+                }
+            }
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/quienes_somos1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+        }
+    }
+    .ventajas{
+        width: 80%;
+        margin: 5rem auto;
+        h3{
+            font-size: $title-size-4;
+            color: $color-azul;
+            font-weight: 1000;
+        }
+        div{
+            display: flex;
+            height: 80px;
+            align-items: center;
+            img{
+                align-self: center;
+                width: 70px;
+                display: inline-block;
+            }
+            p{
+                line-height: initial;
+                margin: 0;
+                display: inline-block;
+                font-size: $text-size-3;
+                color: $color-azul;
+                font-weight: 600;
+                span{
+                    font-weight: 1000;
+                }
+            }
+            
+        }
+    }
+    .entrega{
+        width: 80%;
+        margin: 0 auto 5rem;
+        h2{
+            margin-left: 0.5rem;
+            font-size: $title-size-4;
+            color: $color-rojo;
+            font-weight: 1000;
+        }
+        p{
+            width: 64%;
+            font-size: $text-size-5;
+            line-height: initial;
+            font-weight: 500;
+            color: $color-gris;
+            margin-left: 0.5rem;
+
+        }
+    }
+}

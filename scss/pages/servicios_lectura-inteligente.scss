@@ -1,0 +1,79 @@
+#section_lectura-inteligente{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        
+        .columna-1{
+            position: relative;
+            padding-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            article{
+                width: 74%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                
+                p{
+                    color: $color-azul;
+                    font-size: 0.9rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+                    margin-bottom: 3rem;
+                    margin-top: 4rem;
+                    padding-right: 2rem;
+                    width: 100%;
+                    margin-left: auto;
+                    text-align: end;
+                }
+            }
+            .contenedor-botones{
+                margin-left: auto;
+                width: 70%;
+                margin-top: 1.5rem;
+                .btn{
+                    display: flex;
+                    border-radius: 0.75rem;
+                    background-color: $color-azul;
+                    padding: 0.9rem 0.85rem;
+                    margin-bottom: 1rem;
+                    color: $color-blanco;
+                    font-size: $text-size-6;
+                    font-weight: 500;
+                    width: 26rem;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+            }
+        }
+        .columna-2{
+            position: relative;
+            
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/lectura_inteligente.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            } 
+        }
+    }
+}

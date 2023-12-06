@@ -1,0 +1,91 @@
+#section_central-monitoreo{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        
+        .columna-1{
+            position: relative;
+            padding-bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            article{
+                width: 74%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                
+                p{
+                    color: $color-azul;
+                    font-size: 0.9rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+                    margin-bottom: 1rem;
+                    margin-top: 6rem;
+                    padding-right: 2rem;
+                    width: 100%;
+                    margin-left: auto;
+                    text-align: end;
+                }
+            }
+            .parrafo{
+                margin-left:auto;
+                width: 74%;
+                text-align: end;
+                font-size: $text-size-4;
+                line-height: initial;
+                color: $color-rojo;
+                margin-bottom: 5rem;
+                padding-right: 2rem;
+            }
+            div{
+                margin-left:auto;
+                width: 74%;
+                input{
+                    margin-top: 1rem;
+                    border: 1px $color-rojo solid;
+                    width: 70%;
+                    padding: 0.7rem 1rem;
+                    border-radius: 0.5rem;
+                }
+                input::placeholder {
+                    color:$color-rojo;
+                }                  
+                button{
+                    margin-top: 2rem;
+                    padding: 0rem 1rem;
+                    border-radius: 2rem;
+                    color: $color-blanco;
+                    background-color: $color-rojo;
+                }
+            }
+        }
+        .columna-2{
+            position: relative;
+            
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/central_monitoreo.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                
+            } 
+        }
+    }
+}
