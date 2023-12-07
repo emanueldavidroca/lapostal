@@ -1,0 +1,85 @@
+#contacto{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        
+        .columna-1{
+            position: relative;
+            padding-bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            article{
+                width: 74%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                
+                p{
+                    color: $color-azul;
+                    font-size: 0.9rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+            }
+            
+            .formulario{
+                margin-left:auto;
+                width: 74%;
+                margin-top: 3rem;
+                label {
+                    color:$color-rojo;
+                    font-weight: 600;
+                }
+                input,textarea{
+                    margin-top: 0rem;
+                    margin-bottom: 0.4rem;
+                    border: 1px $color-rojo solid;
+                    width: 70%;
+                    padding: 0.5rem 1rem;
+                    border-radius: 0.75rem;
+                }            
+                button{
+                    margin-top: 0.5rem;
+                    padding: 0.2rem 1.4rem 0.3rem;
+                    border-radius: 2rem;
+                    color: $color-blanco;
+                    line-height: $text-size-5;
+                    font-size: $text-size-5;
+                    background-color: $color-rojo;
+                    margin-left: 1.35rem;
+                }
+            }
+        }
+        .columna-2{
+            position: relative;
+            padding-top: 10rem;
+            h3{
+                font-size: $text-size-5;
+                font-weight: bold;
+                color: $color-azul;
+                margin-bottom: 1.2rem;
+            }
+            p{
+                font-size: 0.95rem;
+                
+            } 
+            h4{
+                color: $color-azul;
+                font-size: $text-size-4;
+                font-weight: bold;
+                margin-top: 1.5rem;
+
+            }
+        }
+    }
+    .fondo-azul{
+        background-color: $color-azul;
+        height: 12rem;
+        width: 100%;
+    }
+}

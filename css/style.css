@@ -65,6 +65,55 @@ html {
 header {
   background-color: #004990;
 }
+header .header-menu {
+  background-color: #fff;
+  position: fixed;
+  width: 30%;
+  z-index: 100;
+  height: 100vh;
+  top: 0px;
+  padding: 4rem 3rem;
+}
+header .header-menu .cerrar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+header .header-menu p {
+  display: flex;
+  align-items: center;
+  color: #004990;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+header .header-menu p img {
+  height: 25px;
+  margin-right: 10px;
+}
+header .header-menu p svg {
+  margin-left: 10px;
+  border: 1px #C80C10 solid;
+  border-radius: 100%;
+  padding: 3px 3px;
+  color: #C80C10;
+}
+header .header-menu a {
+  text-decoration: none;
+  display: block;
+  color: #808080;
+}
+header .header-menu a:hover {
+  color: #004990;
+}
+header .header-menu .social {
+  margin-bottom: 1rem;
+}
+header .header-menu .social svg {
+  color: #C80C10;
+  margin-right: 0.75rem;
+}
 header .banner {
   padding-top: 15px;
   width: 85%;
@@ -1358,6 +1407,160 @@ footer .mini-banner p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#section_cadete-moto {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_cadete-moto .content .columna-1 {
+  position: relative;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_cadete-moto .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_cadete-moto .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#section_cadete-moto .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_cadete-moto .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_cadete-moto .content .columna-1 .parrafo-rojo {
+  background-color: rgb(206, 41, 110);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0;
+  margin-left: auto;
+  width: 72%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+#section_cadete-moto .content .columna-1 .parrafo-rojo p {
+  padding-left: 3.5rem;
+  padding-right: 1.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0;
+}
+#section_cadete-moto .content .columna-2 {
+  position: relative;
+}
+#section_cadete-moto .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/cadete-moto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contacto {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#contacto .content .columna-1 {
+  position: relative;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#contacto .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#contacto .content .columna-1 article p {
+  color: #004990;
+  font-size: 0.9rem;
+  font-weight: 1000;
+}
+#contacto .content .columna-1 article p span {
+  color: #C80C10;
+}
+#contacto .content .columna-1 .formulario {
+  margin-left: auto;
+  width: 74%;
+  margin-top: 3rem;
+}
+#contacto .content .columna-1 .formulario label {
+  color: #C80C10;
+  font-weight: 600;
+}
+#contacto .content .columna-1 .formulario input, #contacto .content .columna-1 .formulario textarea {
+  margin-top: 0rem;
+  margin-bottom: 0.4rem;
+  border: 1px #C80C10 solid;
+  width: 70%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+}
+#contacto .content .columna-1 .formulario button {
+  margin-top: 0.5rem;
+  padding: 0.2rem 1.4rem 0.3rem;
+  border-radius: 2rem;
+  color: #fff;
+  line-height: 1.125rem;
+  font-size: 1.125rem;
+  background-color: #C80C10;
+  margin-left: 1.35rem;
+}
+#contacto .content .columna-2 {
+  position: relative;
+  padding-top: 10rem;
+}
+#contacto .content .columna-2 h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #004990;
+  margin-bottom: 1.2rem;
+}
+#contacto .content .columna-2 p {
+  font-size: 0.95rem;
+}
+#contacto .content .columna-2 h4 {
+  color: #004990;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+#contacto .fondo-azul {
+  background-color: #004990;
+  height: 12rem;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

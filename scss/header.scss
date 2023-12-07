@@ -1,5 +1,55 @@
 header{
     background-color: $color-azul;
+    .header-menu{
+        background-color: $color-blanco;
+        position:fixed;
+        width: 30%;
+        z-index: 100;
+        height: 100vh;
+        top: 0px;
+        padding: 4rem 3rem;
+        .cerrar{
+            position: absolute;
+            top:1rem;
+            right:1rem;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            color: $color-azul;
+            font-size: $text-size-5;
+            font-weight: 500;
+            margin-top:1.25rem;
+            margin-bottom:0.4rem;
+            img{
+                height: 25px;
+                margin-right: 10px;
+            }
+            svg{
+                margin-left: 10px;
+                border: 1px $color-rojo solid;
+                border-radius: 100%;
+                padding: 3px 3px;
+                color: $color-rojo;
+                
+            }
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            color: $color-gris;
+        }
+        a:hover{
+            color: $color-azul;
+        }
+        .social{
+            margin-bottom: 1rem;
+            svg{
+                color: $color-rojo;
+                margin-right: 0.75rem;
+            }
+        }
+    }
     .banner{
         padding-top: 15px;
         width: 85%;
