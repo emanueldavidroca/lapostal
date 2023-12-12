@@ -1,13 +1,17 @@
 header{
     background-color: $color-azul;
+    .header-menu.activo{
+        display: block;
+    }
     .header-menu{
+        display: none;
         background-color: $color-blanco;
         position:fixed;
         width: 30%;
         z-index: 100;
         height: 100vh;
         top: 0px;
-        padding: 4rem 3rem;
+        padding: 0.5rem 3rem;
         .cerrar{
             position: absolute;
             top:1rem;
@@ -19,8 +23,8 @@ header{
             color: $color-azul;
             font-size: $text-size-5;
             font-weight: 500;
-            margin-top:1.25rem;
-            margin-bottom:0.4rem;
+            margin-top:1rem;
+            margin-bottom:0.3rem;
             img{
                 height: 25px;
                 margin-right: 10px;

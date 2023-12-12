@@ -65,14 +65,18 @@ html {
 header {
   background-color: #004990;
 }
+header .header-menu.activo {
+  display: block;
+}
 header .header-menu {
+  display: none;
   background-color: #fff;
   position: fixed;
   width: 30%;
   z-index: 100;
   height: 100vh;
   top: 0px;
-  padding: 4rem 3rem;
+  padding: 0.5rem 3rem;
 }
 header .header-menu .cerrar {
   position: absolute;
@@ -85,8 +89,8 @@ header .header-menu p {
   color: #004990;
   font-size: 1.125rem;
   font-weight: 500;
-  margin-top: 1.25rem;
-  margin-bottom: 0.4rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
 }
 header .header-menu p img {
   height: 25px;
