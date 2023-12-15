@@ -136,3 +136,91 @@ header{
         }
     }
 }
+@media (max-width:768.1px) {
+    header{
+        .navbar-toggler{
+            display: none;
+        }
+        .header-menu.activo{
+        }
+        .header-menu{
+            .cerrar{
+            }
+            p{
+                img{
+                }
+                svg{
+                }
+            }
+            a{
+            }
+            a:hover{
+            }
+            .social{
+                svg{
+                }
+            }
+        }
+        .banner{
+            width: 98%;
+            .row{
+                --bs-gutter-x:0;
+                .col{
+                    text-align: center;
+                    margin-left: 0px;
+                    span{
+                        font-size: 1.35rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+                .col:last-child span{
+                    margin-left: 0;
+                }
+            }
+            
+        }
+        nav{
+            width: 88%;
+            .container-fluid{
+                padding-left: 0.4rem;
+                padding-right: 0.4rem;
+                flex-direction: row;
+                #tres_barra{
+                    padding-left: 1.4rem;
+                    padding-right: 1.4rem;
+                    svg{
+                        font-size: 2.75rem;
+                    }
+                }
+                a{
+                    width: 75%;
+                    .logo_home{
+                    }
+                }
+            }
+            
+            .item_logo_oro{
+                .logo_oro{
+                }
+            }
+            li.dropdown{
+                a{
+                    img{
+                    }
+                    svg{
+                    }
+                }
+                
+                .dropdown-toggle{
+                    svg{
+                    }
+                }
+                .dropdown-toggle::after{
+                }
+            }
+        }
+    }
+}

@@ -200,3 +200,13 @@
 
     }
 }
+@media (max-width:768.1px) {
+    #section-conectamos{
+        .banner-1{
+            .row{
+                justify-content: center;
+                width: 90%;
+            }
+        } 
+    } 
+}

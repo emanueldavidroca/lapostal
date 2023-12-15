@@ -199,6 +199,49 @@ header nav li.dropdown .dropdown-toggle::after {
   display: none;
 }
 
+@media (max-width: 768.1px) {
+  header .navbar-toggler {
+    display: none;
+  }
+  header .banner {
+    width: 98%;
+  }
+  header .banner .row {
+    --bs-gutter-x:0;
+  }
+  header .banner .row .col {
+    text-align: center;
+    margin-left: 0px;
+  }
+  header .banner .row .col span {
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+  header .banner .row .col p {
+    font-size: 1.3rem;
+  }
+  header .banner .row .col:last-child span {
+    margin-left: 0;
+  }
+  header nav {
+    width: 88%;
+  }
+  header nav .container-fluid {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    flex-direction: row;
+  }
+  header nav .container-fluid #tres_barra {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  header nav .container-fluid #tres_barra svg {
+    font-size: 2.75rem;
+  }
+  header nav .container-fluid a {
+    width: 75%;
+  }
+}
 #section-index-hero {
   background-image: url("../img/hero_img.jpg");
   background-size: cover;
@@ -222,6 +265,30 @@ header nav li.dropdown .dropdown-toggle::after {
   width: 45%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 767.9px) {
+  #section-index-hero {
+    background-image: url("../img/hero_img.jpg");
+    background-size: cover;
+    min-height: 325px;
+    padding-top: 8rem;
+  }
+  #section-index-hero .container {
+    margin-left: 10%;
+  }
+  #section-index-hero .container .title {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 1000;
+    line-height: 3.15rem;
+    margin-bottom: 1.5rem;
+  }
+  #section-index-hero .container .subtitle {
+    font-size: 1.563rem;
+    color: #fff;
+    line-height: initial;
+    width: 45%;
+  }
+}
 #section-acceso-clientes {
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -329,6 +396,119 @@ header nav li.dropdown .dropdown-toggle::after {
   width: 100%;
 }
 
+@media (max-width: 768.1px) {
+  #section-acceso-clientes {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  #section-acceso-clientes .banner {
+    padding: 2rem 7rem 1rem 1.5rem;
+    align-items: center;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  #section-acceso-clientes .banner span {
+    font-size: 2.65rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: initial;
+  }
+  #section-acceso-clientes .banner a {
+    color: #fff;
+    background-color: #C80C10;
+    border-radius: 0.6rem;
+    font-size: 1.875rem;
+  }
+  #section-acceso-clientes .cartas.row {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+  #section-acceso-clientes .cartas.row .columna-1 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
+  }
+  #section-acceso-clientes .cartas.row .columna-2 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-2.jpg");
+  }
+  #section-acceso-clientes .cartas.row .columna-3 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-3.jpg");
+  }
+  #section-acceso-clientes .cartas.row .columna-4 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-4.jpg");
+  }
+  #section-acceso-clientes .cartas.row .columna-5 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-5.jpg");
+  }
+  #section-acceso-clientes .cartas.row .columna-6 a {
+    background-image: url("../img/acceso-cliente/LaPostal-img-6.jpg");
+  }
+  #section-acceso-clientes .cartas.row a {
+    display: flex;
+    align-items: end;
+    text-decoration: none;
+    background-size: cover;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    padding: 2rem 2.25rem;
+    position: relative;
+  }
+  #section-acceso-clientes .cartas.row a .logo-hybrin {
+    width: 40px;
+  }
+  #section-acceso-clientes .cartas.row a svg {
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1.75rem;
+    border: 1px #fff solid;
+    padding: 0.6rem 0.85rem;
+    color: #fff;
+    border-radius: 100%;
+  }
+  #section-acceso-clientes .cartas.row a span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  #section-acceso-clientes .unimos {
+    margin: auto;
+    width: 72%;
+  }
+  #section-acceso-clientes .unimos .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #section-acceso-clientes .unimos .title {
+    color: #004990;
+    font-size: 2rem;
+    font-weight: 1000;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #section-acceso-clientes .unimos .text {
+    color: #808080;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+  }
+  #section-acceso-clientes .unimos .btn {
+    color: #fff;
+    background-color: #C80C10;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    padding: 0.2rem 1.2rem;
+  }
+  #section-acceso-clientes .unimos img {
+    width: 100%;
+  }
+}
 #section-conectamos .banner-1 {
   background-color: #004990;
   padding: 1rem 0;
@@ -516,6 +696,12 @@ header nav li.dropdown .dropdown-toggle::after {
   color: #C80C10;
 }
 
+@media (max-width: 768.1px) {
+  #section-conectamos .banner-1 .row {
+    justify-content: center;
+    width: 90%;
+  }
+}
 footer {
   background-color: #F5F3EB;
   padding-top: 4rem;

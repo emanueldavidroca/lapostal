@@ -105,3 +105,118 @@
         }
     }
 }
+@media (max-width:768.1px){
+    #section-acceso-clientes{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        .banner{
+            padding: 2rem 7rem 1rem 1.5rem;
+            align-items: center;
+            width: 92%;
+            margin: auto;
+            margin-bottom: 2rem;
+            span{
+                font-size: $title-size-3;
+                font-weight: bold;
+                color: $color-blanco;
+                line-height: initial;
+            }
+            a{
+                color: $color-blanco;
+                background-color: $color-rojo;
+                border-radius:0.6rem;
+                font-size: $text-size-1;
+            }
+        }
+        .cartas.row{
+            width: 75%;
+            margin: auto;
+            margin-bottom: 4rem;
+
+            .columna-1 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
+            }
+            .columna-2 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-2.jpg");
+            }
+            .columna-3 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-3.jpg");
+            }
+            .columna-4 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-4.jpg");
+            }
+            .columna-5 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-5.jpg");
+            }
+            .columna-6 a{
+                background-image: url("../img/acceso-cliente/LaPostal-img-6.jpg");
+            }
+            a{
+                display: flex;
+                align-items: end;
+                text-decoration: none;
+                background-size: cover;
+                min-height: 200px;
+                background-repeat: no-repeat;
+                padding: 2rem 2.25rem;
+                position: relative;
+                .logo-hybrin{
+                    width: 40px;
+                }
+                svg{
+                    position: absolute;
+                    right: 1.25rem;
+                    bottom: 1.75rem;
+                    border: 1px $color-blanco solid;
+                    padding: 0.6rem 0.85rem;
+                    color: $color-blanco;
+                    border-radius: 100%;
+                }
+                span{
+                    color: $color-blanco;
+                    font-weight: bold;
+                    font-size: $text-size-3;
+                }
+            }
+            
+        }
+        .unimos{
+            margin: auto;
+            width: 72%;
+            .row{
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .title{
+                color: $color-azul;
+                font-size: $title-size-4;
+                font-weight: 1000;
+                line-height: $title-size-4;
+                margin-top: 1.5rem;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .text{
+                color: $color-gris;
+                font-size: $text-size-3;
+                line-height: $text-size-3;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 1.5rem;
+                margin-top: 2rem;
+            }
+            .btn{
+                color: $color-blanco;
+                background-color: $color-rojo;
+                border-radius:2rem;
+                font-size: $text-size-3;
+                padding: 0.2rem 1.2rem;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
