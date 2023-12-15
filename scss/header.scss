@@ -144,15 +144,25 @@ header{
         .header-menu.activo{
         }
         .header-menu{
+            width: 100%;
+            padding: 1rem 3rem;
             .cerrar{
             }
             p{
+                font-size: $text-size-1;
+                font-weight: 500;
+                margin-top:1.4rem;
+                margin-bottom:0.5rem;
                 img{
+                    height: 32px;
                 }
                 svg{
+                    margin-left: 7px;
+                    padding: 5px;
                 }
             }
             a{
+                font-size: $text-size-2;
             }
             a:hover{
             }
@@ -185,8 +195,8 @@ header{
         nav{
             width: 88%;
             .container-fluid{
-                padding-left: 0.4rem;
-                padding-right: 0.4rem;
+                padding-left: 1rem;
+                padding-right: 0.5rem;
                 flex-direction: row;
                 #tres_barra{
                     padding-left: 1.4rem;
@@ -198,6 +208,7 @@ header{
                 a{
                     width: 75%;
                     .logo_home{
+                        height: 57px;
                     }
                 }
             }

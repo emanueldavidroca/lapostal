@@ -159,13 +159,30 @@ footer{
     footer{
         font-size: $text-size-3;
         text-align: center;
+        padding-top: 1.2rem;
         .contenedor{
-            .logo{
+            padding-bottom: 3rem;
+            .title{
+                font-size: 1.4rem;
+                font-weight: bold;
+                margin-bottom: 0.3rem;
+            }
+            .seguinos{
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-top: 0.75rem;
+            }
+            .unite{
+                margin-top: 0.5rem;
+                font-size: 1.45rem;
 
+            }
+            .logo-oro{
+                width: 80%;
             }
             .row{
                 .col-12{
-                    margin-bottom:3rem;
+                    margin-bottom:1rem;
                 }
             }
             a{
@@ -186,26 +203,66 @@ footer{
             .social{
 
                 svg{
-
+                    font-size: 2.25em;
                 }
             }
             .mail,.phone{
-                font-size: $text-size-2;
+                font-size: 1.6rem;
                 svg{
+                    font-size: 1.3em;
     
                 }
                 span{
 
                 }
             }
+            .direccion{
+                .subtitle{
+                    font-size: 1.5rem;
+                    line-height: initial;
+                    margin-top: 0.65rem;
+                }
+                span{
+                    line-height: initial;
+                    font-size: 1.45rem;
+                    margin-bottom: -1px;
+                }
+                
+            }
             /*2° columna*/
             .text{
                 font-size: $text-size-2;
+            }
+            .enacom{
+                a{
+                    line-height: initial;
+                    font-size: 1.5rem;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                }
             }
             /*3° columna*/
             .links{
                 font-size: $text-size-3;
 
+            }
+            #data-fiscal{
+                bottom: 0.5rem;
+                right: 1rem;
+                width: 55px;
+            }
+        }
+        .mini-banner{
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+            .fondo-rojo{
+                border-top-right-radius: 5rem;
+                border-bottom-right-radius: 5rem;
+            }
+            p{
+                width: 80%;
+                font-size: 1.4rem;
+                margin: auto;
             }
         }
     }

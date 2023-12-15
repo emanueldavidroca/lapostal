@@ -203,6 +203,26 @@ header nav li.dropdown .dropdown-toggle::after {
   header .navbar-toggler {
     display: none;
   }
+  header .header-menu {
+    width: 100%;
+    padding: 1rem 3rem;
+  }
+  header .header-menu p {
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-top: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  header .header-menu p img {
+    height: 32px;
+  }
+  header .header-menu p svg {
+    margin-left: 7px;
+    padding: 5px;
+  }
+  header .header-menu a {
+    font-size: 1.563rem;
+  }
   header .banner {
     width: 98%;
   }
@@ -227,8 +247,8 @@ header nav li.dropdown .dropdown-toggle::after {
     width: 88%;
   }
   header nav .container-fluid {
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
     flex-direction: row;
   }
   header nav .container-fluid #tres_barra {
@@ -240,6 +260,9 @@ header nav li.dropdown .dropdown-toggle::after {
   }
   header nav .container-fluid a {
     width: 75%;
+  }
+  header nav .container-fluid a .logo_home {
+    height: 57px;
   }
 }
 #section-index-hero {
@@ -283,7 +306,7 @@ header nav li.dropdown .dropdown-toggle::after {
     margin-bottom: 1.5rem;
   }
   #section-index-hero .container .subtitle {
-    font-size: 1.563rem;
+    font-size: 1.875rem;
     color: #fff;
     line-height: initial;
     width: 45%;
@@ -631,12 +654,12 @@ header nav li.dropdown .dropdown-toggle::after {
   color: #fff;
   line-height: initial;
 }
-#section-conectamos .banner-2 .row .col-md-4 {
+#section-conectamos .banner-2 .row .col-lg-4 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#section-conectamos .banner-2 .row .col-md-4 .btn {
+#section-conectamos .banner-2 .row .col-lg-4 .btn {
   background-color: #fff;
   color: #C80C10;
   font-weight: 500;
@@ -700,6 +723,145 @@ header nav li.dropdown .dropdown-toggle::after {
   #section-conectamos .banner-1 .row {
     justify-content: center;
     width: 90%;
+  }
+  #section-conectamos .content .columna-1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  #section-conectamos .content .columna-1 article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  #section-conectamos .content .columna-1 article .btn {
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #section-conectamos .content .columna-2 div {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 1.2rem 0;
+    width: 86%;
+  }
+  #section-conectamos .content .columna-2 div img {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    margin-left: 0px;
+  }
+  #section-conectamos .content .columna-2 div p {
+    font-size: 1.45rem;
+    line-height: 1.6rem;
+    padding-left: 6.5rem;
+    padding-right: 1rem;
+    margin-top: 5px;
+  }
+  #section-conectamos .content .columna-2 div .btn {
+    font-size: 1.45rem;
+    margin-left: 6.5rem;
+    margin-top: 0.5rem;
+  }
+  #section-conectamos .content .columna-2 article {
+    width: 87%;
+  }
+  #section-conectamos .banner-2 {
+    background-color: #004990;
+    padding: 1.25rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+  #section-conectamos .banner-2 .row {
+    position: relative;
+    z-index: 3;
+    width: 95%;
+    margin: auto;
+  }
+  #section-conectamos .banner-2 .row .col-lg-6 {
+    padding-left: 1rem;
+  }
+  #section-conectamos .banner-2 .row .col-lg-6 p {
+    margin: 0 0 0.75rem;
+    line-height: 1.563rem;
+    font-weight: bold;
+    font-size: 1.563rem;
+    color: #fff;
+    margin-left: -0.5rem;
+  }
+  #section-conectamos .banner-2 .row .col-lg-6 span {
+    font-size: 1.3rem;
+    color: #fff;
+    line-height: initial;
+  }
+  #section-conectamos .banner-2 .row .col-lg-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #section-conectamos .banner-2 .row .col-lg-4 .btn {
+    background-color: #fff;
+    color: #C80C10;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+  }
+  #section-conectamos .banner-2 .fondo-rojo {
+    width: 42%;
+    background-color: #C80C10;
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    height: calc(100% + 20px);
+    margin-top: -10px;
+  }
+  #section-conectamos .banner-3 {
+    padding: 2.25rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+  #section-conectamos .banner-3 .row {
+    position: relative;
+    z-index: 3;
+    width: 85%;
+    margin: auto;
+  }
+  #section-conectamos .banner-3 .row .columna-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  #section-conectamos .banner-3 .row .columna-1 img {
+    height: 50px;
+  }
+  #section-conectamos .banner-3 .row .columna-1 p {
+    text-align: center;
+    margin: 0 0 0.75rem;
+    line-height: 1.8rem;
+    font-weight: 1000;
+    font-size: 1.75rem;
+    color: #004990;
+  }
+  #section-conectamos .banner-3 .row .columna-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  #section-conectamos .banner-3 .row .columna-2 .btn {
+    font-size: 1.6rem;
+    border: 2px #C80C10 solid;
+    font-weight: bold;
+    border-radius: 1.25rem;
+    margin-left: 1.5rem;
+    padding: 0.2rem 0.85rem;
+    color: #C80C10;
   }
 }
 footer {
@@ -853,26 +1015,85 @@ footer .mini-banner p {
   footer {
     font-size: 1.4rem;
     text-align: center;
+    padding-top: 1.2rem;
   }
   footer .contenedor {
+    padding-bottom: 3rem;
     /*1° columna*/
     /*2° columna*/
     /*3° columna*/
   }
+  footer .contenedor .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  footer .contenedor .seguinos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+  }
+  footer .contenedor .unite {
+    margin-top: 0.5rem;
+    font-size: 1.45rem;
+  }
+  footer .contenedor .logo-oro {
+    width: 80%;
+  }
   footer .contenedor .row .col-12 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   footer .contenedor .subtitle {
     font-size: 1.875rem;
   }
+  footer .contenedor .social svg {
+    font-size: 2.25em;
+  }
   footer .contenedor .mail, footer .contenedor .phone {
-    font-size: 1.563rem;
+    font-size: 1.6rem;
+  }
+  footer .contenedor .mail svg, footer .contenedor .phone svg {
+    font-size: 1.3em;
+  }
+  footer .contenedor .direccion .subtitle {
+    font-size: 1.5rem;
+    line-height: initial;
+    margin-top: 0.65rem;
+  }
+  footer .contenedor .direccion span {
+    line-height: initial;
+    font-size: 1.45rem;
+    margin-bottom: -1px;
   }
   footer .contenedor .text {
     font-size: 1.563rem;
   }
+  footer .contenedor .enacom a {
+    line-height: initial;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
   footer .contenedor .links {
     font-size: 1.4rem;
+  }
+  footer .contenedor #data-fiscal {
+    bottom: 0.5rem;
+    right: 1rem;
+    width: 55px;
+  }
+  footer .mini-banner {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  footer .mini-banner .fondo-rojo {
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+  footer .mini-banner p {
+    width: 80%;
+    font-size: 1.4rem;
+    margin: auto;
   }
 }
 #section_quienes-somos-1 {
