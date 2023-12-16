@@ -1387,6 +1387,93 @@ footer .mini-banner p {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768.1px) {
+  #section_logistica-outsourcing .content .columna-1 {
+    position: relative;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #section_logistica-outsourcing .content .columna-1 article {
+    width: 94%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 6rem;
+  }
+  #section_logistica-outsourcing .content .columna-1 article p {
+    color: #004990;
+    font-size: 1.3rem;
+    font-weight: 1000;
+  }
+  #section_logistica-outsourcing .content .columna-1 article p span {
+    color: #C80C10;
+  }
+  #section_logistica-outsourcing .content .columna-1 article h3 {
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #004990;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+  }
+  #section_logistica-outsourcing .content .columna-1 .parrafo-rojo {
+    background-color: rgb(206, 41, 110);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 2rem 0rem;
+    margin-left: auto;
+    width: 88%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  #section_logistica-outsourcing .content .columna-1 .parrafo-rojo p {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  #section_logistica-outsourcing .content .columna-1 .contenedor-botones {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  #section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
+    border-radius: 1.5rem;
+    color: #C80C10;
+    border: 1px #C80C10 solid;
+    padding: 0.25rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  #section_logistica-outsourcing .content .columna-2 {
+    position: relative;
+  }
+  #section_logistica-outsourcing .content .columna-2 article {
+    z-index: 1;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    background-image: url("../img/logistica-outsourcing.jpg");
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 #section_correo {
   background-color: #fff;
   position: relative;
