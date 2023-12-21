@@ -80,3 +80,83 @@
         }
     }
 }
+@media (max-width:768.1px){
+    #section_cadete-moto{
+        .content{
+            .columna-1{
+                position: relative;
+                padding-bottom: 4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-image: url("../img/cadete-moto.jpg");
+                    background-size: cover;
+                article{
+                    width: 94%;
+                    margin-right: 0;
+                    margin-left: auto;
+                    margin-top: 6rem;
+                    p{
+                        color: $color-azul;
+                        font-size: 1.4rem;
+                        font-weight: 1000;
+                        span{
+                            color: $color-rojo;
+                        }
+                    }
+                    h3{
+                        font-size: $title-size-4;
+                        font-weight: 1000;
+                        color: $color-azul;
+                        line-height: $title-size-4;
+                        margin-bottom: 3rem;
+                        margin-top: 3rem;
+                        padding-right: 2rem;
+                        width: 100%;
+                        margin-left: auto;
+                        text-align: end;
+                    }
+                }
+                .parrafo-rojo{
+                    background-color: rgba(206, 41, 110, 0.79);
+                    border-top-left-radius: 1rem;
+                    border-bottom-left-radius: 1rem;
+                    padding:0;
+                    margin-left: auto;
+                    width: 85%;
+                    padding-top: 2.5rem;
+                    padding-bottom:2.5rem ;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.5rem;
+                    p{
+                        padding-left: 3rem;
+                        padding-right: 1.5rem;
+                        color: $color-blanco;
+                        font-size: 1.4rem;
+                        font-weight: 600;
+                        line-height: 1.5rem;
+                        margin: 0;
+                    }
+                }
+            }
+            .columna-2{
+                position: relative;
+                
+                article{
+                    z-index: 1;
+                    right: 0px;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    background-image: url("../img/cadete-moto.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    
+                } 
+            }
+        }
+    }
+}

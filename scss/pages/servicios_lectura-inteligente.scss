@@ -77,3 +77,82 @@
         }
     }
 }
+@media (max-width:768.1px){
+    #section_lectura-inteligente{
+        .content{
+            .columna-1{
+                position: relative;
+                padding-bottom: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-image: url("../img/lectura_inteligente.jpg");
+                background-size: cover;
+                article{
+                    width: 94%;
+                    margin-right: 0;
+                    margin-left: auto;
+                    margin-top: 6rem;
+                    p{
+                        color: $color-blanco;
+                        font-size: 1.35rem;
+                        font-weight: 1000;
+                        span{
+                            color: $color-rojo;
+                        }
+                    }
+                    h3{
+                        font-size: $title-size-4;
+                        font-weight: 1000;
+                        color: $color-blanco;
+                        line-height: $title-size-4;
+                        margin-bottom: 2rem;
+                        margin-top: 3rem;
+                        padding-right: 2rem;
+                        width: 100%;
+                        margin-left: auto;
+                        text-align: center;
+                    }
+                }
+                .contenedor-botones{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 85%;
+                    margin-top: 1.5rem;
+                    .btn{
+                        display: flex;
+                        border-radius: 0.75rem;
+                        background-color: $color-azul;
+                        padding:0.4rem 1.2rem;
+                        margin-bottom: 1.4rem;
+                        color: $color-blanco;
+                        font-size: $text-size-2;
+                        font-weight: 600;
+                        width: 28rem;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        box-shadow: 0 0 8px #ffffff57;
+                    } 
+                }
+            }
+            .columna-2{
+                position: relative;
+                
+                article{
+                    z-index: 1;
+                    right: 0px;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    background-image: url("../img/lectura_inteligente.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    
+                } 
+            }
+        }
+    }
+}

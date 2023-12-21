@@ -89,3 +89,101 @@
         }
     }
 }
+@media (max-width:768.1px){
+    #section_central-monitoreo{
+        .content{
+            .columna-1{
+                position: relative;
+                padding-bottom: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                article{
+                    width: 94%;
+                    margin-right: 0;
+                    margin-left: auto;
+                    margin-top: 6rem;
+                    p{
+                        color: $color-azul;
+                        font-size: 1.4rem;
+                        font-weight: 1000;
+                        span{
+                            color: $color-rojo;
+                        }
+                    }
+                    h3{
+                        font-size: $title-size-4;
+                        font-weight: 1000;
+                        color: $color-azul;
+                        line-height: $title-size-4;
+                        margin-bottom: 1rem;
+                        margin-top: 3rem;
+                        padding-right: 2rem;
+                        width: 100%;
+                        margin-left: auto;
+                        text-align: end;
+                    }
+                }
+                .parrafo{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 80%;
+                    text-align: center;
+                    font-size: $text-size-3;
+                    line-height: initial;
+                    font-weight: 600;
+                    color: $color-rojo;
+                    margin-bottom: 1.5rem;
+                    margin-top: 1.5rem;
+                    padding-right: 0rem;
+                }
+                div{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 74%;
+                    input{
+                        margin-top: 1rem;
+                        border: 1px $color-rojo solid;
+                        width: 70%;
+                        margin-left:auto;
+                        margin-right:auto;
+                        padding: 0.7rem 1rem;
+                        border-radius: 0.5rem;
+                        font-size: $text-size-2;
+                    }
+                    input::placeholder {
+                        color:$color-rojo;
+                    }                  
+                    button{
+                        margin-top: 1rem;
+                        margin-left:auto;
+                        margin-right:auto;
+                        display: block;
+                        padding: 0rem 1rem;
+                        border-radius: 2rem;
+                        color: $color-blanco;
+                        background-color: $color-rojo;
+                        font-size: $text-size-1;
+                    }
+                }
+            }
+            .columna-2{
+                position: relative;
+                height: 22rem;
+                article{
+                    z-index: 1;
+                    right: 0px;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    background-image: url("../img/central_monitoreo.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    
+                } 
+            }
+        }
+    }
+}
