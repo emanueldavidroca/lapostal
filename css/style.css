@@ -223,6 +223,9 @@ header nav li.dropdown .dropdown-toggle::after {
   header .header-menu a {
     font-size: 1.563rem;
   }
+  header .header-menu .social svg {
+    font-size: 2.5rem;
+  }
   header .banner {
     width: 98%;
   }
@@ -234,11 +237,11 @@ header nav li.dropdown .dropdown-toggle::after {
     margin-left: 0px;
   }
   header .banner .row .col span {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 500;
   }
   header .banner .row .col p {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
   }
   header .banner .row .col:last-child span {
     margin-left: 0;
@@ -1046,6 +1049,9 @@ footer .mini-banner p {
   footer .contenedor .subtitle {
     font-size: 1.875rem;
   }
+  footer .contenedor .enviar {
+    font-size: 1.4rem;
+  }
   footer .contenedor .social svg {
     font-size: 2.25em;
   }
@@ -1430,8 +1436,8 @@ footer .mini-banner p {
   }
   #section_quienes-somos-1 .content .columna-4 article p {
     color: #808080;
-    font-size: 1.4rem;
-    line-height: 1.65rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 500;
     padding-right: 3rem;
   }
@@ -1721,15 +1727,18 @@ footer .mini-banner p {
   background-color: rgb(206, 41, 110);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  padding: 0;
   margin-left: auto;
   width: 72%;
-  height: 14rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  transition: all 0.3s;
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
+  height: 12rem;
 }
 #section_correo .content .columna-1 .parrafo-rojo p {
+  display: none;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
   color: #fff;
@@ -1737,6 +1746,10 @@ footer .mini-banner p {
   font-weight: 500;
   line-height: 1.2rem;
   margin: 0;
+  transition: all 0.3s;
+}
+#section_correo .content .columna-1 .parrafo-rojo p.activo {
+  display: block;
 }
 #section_correo .content .columna-1 .contenedor-botones {
   margin-left: auto;
@@ -1796,7 +1809,7 @@ footer .mini-banner p {
   }
   #section_correo .content .columna-1 article p {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 1000;
   }
   #section_correo .content .columna-1 article p span {
@@ -2785,6 +2798,104 @@ footer .mini-banner p {
   background-color: #004990;
   height: 12rem;
   width: 100%;
+}
+
+@media (max-width: 768.1px) {
+  #contacto {
+    background-color: #fff;
+    position: relative;
+    z-index: 0;
+  }
+  #contacto .content .columna-1 {
+    position: relative;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #contacto .content .columna-1 article {
+    width: 80%;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-top: 6rem;
+  }
+  #contacto .content .columna-1 article p {
+    color: #004990;
+    font-size: 1.4rem;
+    font-weight: 1000;
+  }
+  #contacto .content .columna-1 article p span {
+    color: #C80C10;
+  }
+  #contacto .content .columna-1 .formulario {
+    margin-left: auto;
+    width: 85%;
+    margin-top: 1.5rem;
+  }
+  #contacto .content .columna-1 .formulario label {
+    font-size: 1.6rem;
+    color: #C80C10;
+    font-weight: 600;
+  }
+  #contacto .content .columna-1 .formulario input, #contacto .content .columna-1 .formulario textarea {
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+    border: 1px #C80C10 solid;
+    font-size: 1.563rem;
+    width: 85%;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+  }
+  #contacto .content .columna-1 .formulario button {
+    margin-top: 0.5rem;
+    padding: 0.2rem 1.4rem 0.3rem;
+    border-radius: 2rem;
+    color: #fff;
+    line-height: 1.875rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    background-color: #C80C10;
+    margin-left: 1.35rem;
+  }
+  #contacto .content .columna-2 {
+    position: relative;
+    padding-top: 2rem;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contacto .content .columna-2 h3 {
+    font-size: 2.65rem;
+    font-weight: bold;
+    color: #004990;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  #contacto .content .columna-2 p {
+    text-align: justify;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.45rem;
+    margin-bottom: 0.5rem;
+  }
+  #contacto .content .columna-2 h4 {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #004990;
+    font-size: 1.563rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  #contacto .fondo-azul {
+    background-color: #004990;
+    height: 8rem;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

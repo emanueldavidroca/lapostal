@@ -15,7 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
   <script src="js/header-menu.js" defer></script>
-				
+	
 </head>
 <body>
   <header>
@@ -101,7 +101,8 @@
               en servicios postales.</h3>
           </article>
           <div class="parrafo-rojo">
-            <p>Desde nuestros inicios, sumamos tecnología para
+            <p class="p1 activo">
+              Desde nuestros inicios, sumamos tecnología para
               agregar valor a los servicios postales tradicionales.
               Nuestras plataformas tecnológicas integran la gestión y
               cumplimiento del personal de campo, los procesos y la
@@ -109,18 +110,25 @@
               control y el seguimiento en línea de cada uno de sus
               envíos o proyectos de distribución.
             </p>
+            <p class="p2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorum cumque tempora beatae, architecto blanditiis aliquam sit minima quidem. Modi, pariatur impedit vitae animi autem repellat tenetur in incidunt facere!</p>
+            <p class="p3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi at consequatur praesentium alias voluptate, vero nisi ab quidem nam dolores unde dignissimos optio minima aliquid, quisquam possimus dolorum assumenda. Quibusdam.</p>
+            <p class="p4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quae officiis facilis adipisci, neque explicabo, exercitationem nemo quod ea incidunt odio excepturi fugiat dolore.
+            </p>
           </div>
           <div class="contenedor-botones">
-            <button class="btn">
+            <button class="btn" onclick="parrafo_rojo('p1',12)">
               <span>Servicios Básicos</span><i class="fa-solid fa-chevron-right"></i>
             </button>
-            <button class="btn">
+            <button class="btn"  onclick="parrafo_rojo('p2',10)">
               <span>Servicios con Valor Agregado</span><i class="fa-solid fa-chevron-right"></i>
             </button>
-            <button class="btn">
+            <button class="btn"  onclick="parrafo_rojo('p3',10)">
               <span>Servicios de encomienda y bolsín</span><i class="fa-solid fa-chevron-right"></i>
             </button>
-            <button class="btn">
+            <button class="btn"  onclick="parrafo_rojo('p4',8.5)">
               <span>Servicios de Comunicaciones Fehacientes</span><i class="fa-solid fa-chevron-right"></i>
             </button>
           </div>
@@ -131,6 +139,16 @@
       </div>
     </div>
   </section>
+  <script>
+    function parrafo_rojo(p,tamaño){
+      let parrafos = document.querySelectorAll('.parrafo-rojo p');
+      for (let index = 0; index < parrafos.length; index++) {
+        parrafos[index].classList.remove('activo')
+      }
+      document.querySelector('.parrafo-rojo .'+p).classList.add('activo')
+      document.querySelector('.parrafo-rojo').style.height = tamaño+"rem";
+    }
+  </script>
   <footer>
     <div class="contenedor">
       <div class="row justify-content-around">

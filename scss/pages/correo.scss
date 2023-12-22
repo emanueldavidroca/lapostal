@@ -42,14 +42,17 @@
                 background-color: $color-rosa;
                 border-top-left-radius: 1rem;
                 border-bottom-left-radius: 1rem;
-                padding:0;
                 margin-left: auto;
                 width: 72%;
-                height: 14rem;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+                transition: all 0.3s;
                 display: flex;
                 align-items: center;
                 margin-bottom: 1.5rem;
+                height: 12rem;
                 p{
+                    display: none;
                     padding-left: 3.5rem;
                     padding-right: 3.5rem;
                     color: $color-blanco;
@@ -57,6 +60,10 @@
                     font-weight: 500;
                     line-height: 1.2rem;
                     margin: 0;
+                    transition: all 0.3s;
+                }
+                p.activo{
+                    display: block;
                 }
             }
             .contenedor-botones{
@@ -123,7 +130,7 @@
                     
                     p{
                         color: $color-blanco;
-                        font-size: 1.4rem;
+                        font-size: 1.35rem;
                         font-weight: 1000;
                         span{
                             color: $color-rojo;
@@ -154,6 +161,7 @@
                     align-items: center;
                     margin-bottom: 1.5rem;
                     p{
+                        
                         padding-left: 3.5rem;
                         padding-right: 3.5rem;
                         color: $color-blanco;
@@ -162,6 +170,7 @@
                         line-height: 1.7rem;
                         margin: 0;
                     }
+                    
                 }
                 .contenedor-botones{
                     margin-left: auto;
