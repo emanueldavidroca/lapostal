@@ -58,6 +58,44 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+.btn-rojo{
+    color: $color-blanco;
+    background-color: $color-rojo;
+    transition: all 0.2s;
+}
+.btn-rojo:hover{
+    color: $color-rojo ;
+    background-color: $color-blanco;
+    border: 1px $color-rojo solid;
+}
+.btn-rojo-inverted{
+    color: $color-rojo;
+    background-color: $color-blanco;
+    border-color: $color-rojo;
+    border-style: solid;
+    transition: all 0.2s;
+}
+.btn-rojo-inverted:hover{
+    color: $color-blanco ;
+    background-color: $color-rojo;
+    border: 1px $color-blanco solid;
+}
+.btn-azul{
+    color: $color-blanco;
+    background-color: $color-azul;
+    transition: all 0.2s;
+    svg{
+        transition: all 0.25s;
+    }
+}
+.btn-azul:hover{
+    color: $color-azul ;
+    background-color: $color-blanco;
+    border: 1px $color-azul solid;
+    svg{
+        transform: rotate(90deg);
+    }
+}
 html { font-size: 100%; }
 @media screen and (min-width: 300px) and (max-width: 767.9px){
     html { font-size: 52%; }

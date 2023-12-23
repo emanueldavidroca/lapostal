@@ -12,6 +12,7 @@
                 font-weight: 1000;
                 font-size: $text-size-1;
                 color: $color-blanco;
+                
             }
             span{
                 font-size: $text-size-2;
@@ -42,10 +43,8 @@
                 .btn{
                     display: flex;
                     border-radius: 0.75rem;
-                    background-color: $color-azul;
                     padding: 0.75rem 1rem;
                     margin-bottom: 1rem;
-                    color: $color-blanco;
                     font-size: $text-size-6;
                     font-weight: 500;
                     width: 24rem;
@@ -59,6 +58,7 @@
         }
         .columna-2{
             position: relative;
+            
             div{
                 margin-top: 13rem;
                 background-color: $color-blanco;
@@ -67,12 +67,15 @@
                 padding: 1.5rem 0;
                 position: relative;
                 z-index: 3;
+                height: auto;
+                transition: all 0.2s;
                 width: 75%;
                 img{
                     width: 70px;
                     margin-left: 3rem;
                 }
                 p{
+                    display: none;
                     padding-left: 4.5rem;
                     padding-right: 1.5rem;
                     color: $color-gris;
@@ -80,6 +83,16 @@
                     font-weight: 500;
                     line-height: 1.2rem;
                     margin: 0.75rem 0;
+                    opacity: 0;
+                    transition: all 0.3s;
+                    transform: scaleY(0);
+                    overflow: hidden;
+                }
+                p.activo{
+                    transform: scaleY(1);
+                    display:block;
+                    opacity: 1;
+
                 }
                 .btn{
                     font-size: 0.8rem;
@@ -87,7 +100,6 @@
                     border-radius: 1.25rem;
                     margin-left: 4.5rem;
                     padding: 0.2rem 0.75rem;
-                    color: $color-rojo;
                 }
             }
             article{
@@ -133,8 +145,6 @@
                 align-items: center;
                 justify-content: center;
                 .btn{
-                    background-color: $color-blanco;
-                    color:$color-rojo;
                     font-weight: 500;
                     font-size: $text-size-5;
                     border-radius: 2rem;
@@ -188,11 +198,10 @@
                 justify-content: flex-start;
                 .btn{
                     font-size: 0.8rem;
-                    border: 2px $color-rojo solid;
+                    border-width: 2px;
                     border-radius: 1.25rem;
                     margin-left: 1.5rem;
                     padding: 0.2rem 0.75rem;
-                    color: $color-rojo;
                 }
             }
         }

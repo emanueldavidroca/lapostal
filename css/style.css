@@ -43,6 +43,50 @@ html, body {
   overflow-x: hidden;
 }
 
+.btn-rojo {
+  color: #fff;
+  background-color: #C80C10;
+  transition: all 0.2s;
+}
+
+.btn-rojo:hover {
+  color: #C80C10;
+  background-color: #fff;
+  border: 1px #C80C10 solid;
+}
+
+.btn-rojo-inverted {
+  color: #C80C10;
+  background-color: #fff;
+  border-color: #C80C10;
+  border-style: solid;
+  transition: all 0.2s;
+}
+
+.btn-rojo-inverted:hover {
+  color: #fff;
+  background-color: #C80C10;
+  border: 1px #fff solid;
+}
+
+.btn-azul {
+  color: #fff;
+  background-color: #004990;
+  transition: all 0.2s;
+}
+.btn-azul svg {
+  transition: all 0.25s;
+}
+
+.btn-azul:hover {
+  color: #004990;
+  background-color: #fff;
+  border: 1px #004990 solid;
+}
+.btn-azul:hover svg {
+  transform: rotate(90deg);
+}
+
 html {
   font-size: 100%;
 }
@@ -349,6 +393,17 @@ header nav li.dropdown .dropdown-toggle::after {
   margin: auto;
   margin-bottom: 4rem;
 }
+#section-acceso-clientes .cartas.row > div:hover svg {
+  transform: rotate(90deg);
+  background-color: #fff;
+  color: black;
+}
+#section-acceso-clientes .cartas.row > div:hover span {
+  padding-bottom: 0.35rem;
+}
+#section-acceso-clientes .cartas.row > div:hover img {
+  padding-bottom: 0.35rem;
+}
 #section-acceso-clientes .cartas.row .columna-1 a {
   background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
 }
@@ -378,21 +433,25 @@ header nav li.dropdown .dropdown-toggle::after {
   position: relative;
 }
 #section-acceso-clientes .cartas.row a .logo-hybrin {
+  transition: all 0.3s;
   width: 40px;
+  padding-bottom: 0;
 }
 #section-acceso-clientes .cartas.row a svg {
   position: absolute;
   right: 1.25rem;
   bottom: 1.75rem;
   border: 1px #fff solid;
-  padding: 0.6rem 0.85rem;
+  padding: 0.5rem 0.75rem;
   color: #fff;
   border-radius: 100%;
+  transition: all 0.3s;
 }
 #section-acceso-clientes .cartas.row a span {
   color: #fff;
   font-weight: bold;
   font-size: 1.125rem;
+  transition: all 0.25s;
 }
 #section-acceso-clientes .unimos {
   margin: auto;
@@ -412,8 +471,6 @@ header nav li.dropdown .dropdown-toggle::after {
   margin-bottom: 0.85rem;
 }
 #section-acceso-clientes .unimos .btn {
-  color: #fff;
-  background-color: #C80C10;
   border-radius: 2rem;
   font-size: 1.4rem;
   padding: 0.2rem 1.2rem;
@@ -576,10 +633,8 @@ header nav li.dropdown .dropdown-toggle::after {
 #section-conectamos .content .columna-1 article .btn {
   display: flex;
   border-radius: 0.75rem;
-  background-color: #004990;
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
-  color: #fff;
   font-size: 1.05rem;
   font-weight: 500;
   width: 24rem;
@@ -599,6 +654,8 @@ header nav li.dropdown .dropdown-toggle::after {
   padding: 1.5rem 0;
   position: relative;
   z-index: 3;
+  height: auto;
+  transition: all 0.2s;
   width: 75%;
 }
 #section-conectamos .content .columna-2 div img {
@@ -606,6 +663,7 @@ header nav li.dropdown .dropdown-toggle::after {
   margin-left: 3rem;
 }
 #section-conectamos .content .columna-2 div p {
+  display: none;
   padding-left: 4.5rem;
   padding-right: 1.5rem;
   color: #808080;
@@ -613,6 +671,15 @@ header nav li.dropdown .dropdown-toggle::after {
   font-weight: 500;
   line-height: 1.2rem;
   margin: 0.75rem 0;
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scaleY(0);
+  overflow: hidden;
+}
+#section-conectamos .content .columna-2 div p.activo {
+  transform: scaleY(1);
+  display: block;
+  opacity: 1;
 }
 #section-conectamos .content .columna-2 div .btn {
   font-size: 0.8rem;
@@ -620,7 +687,6 @@ header nav li.dropdown .dropdown-toggle::after {
   border-radius: 1.25rem;
   margin-left: 4.5rem;
   padding: 0.2rem 0.75rem;
-  color: #C80C10;
 }
 #section-conectamos .content .columna-2 article {
   z-index: 1;
@@ -663,8 +729,6 @@ header nav li.dropdown .dropdown-toggle::after {
   justify-content: center;
 }
 #section-conectamos .banner-2 .row .col-lg-4 .btn {
-  background-color: #fff;
-  color: #C80C10;
   font-weight: 500;
   font-size: 1.125rem;
   border-radius: 2rem;
@@ -715,11 +779,10 @@ header nav li.dropdown .dropdown-toggle::after {
 }
 #section-conectamos .banner-3 .row .columna-2 .btn {
   font-size: 0.8rem;
-  border: 2px #C80C10 solid;
+  border-width: 2px;
   border-radius: 1.25rem;
   margin-left: 1.5rem;
   padding: 0.2rem 0.75rem;
-  color: #C80C10;
 }
 
 @media (max-width: 768.1px) {
@@ -950,10 +1013,10 @@ footer .contenedor .enviar {
   font-size: 0.9rem;
   font-weight: bold;
   font-family: "inter-light";
-  border: 2px #C80C10 solid;
+  border-style: solid;
+  border-width: 2px;
   border-radius: 15px;
   padding: 3px 15px;
-  color: #C80C10;
   margin-top: 0.2rem;
   display: inline-block;
 }
@@ -1574,8 +1637,6 @@ footer .mini-banner p {
 }
 #section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
   border-radius: 1.5rem;
-  color: #C80C10;
-  border: 1px #C80C10 solid;
   padding: 0.25rem 1rem;
   font-size: 0.85rem;
   font-weight: 600;
@@ -1661,8 +1722,6 @@ footer .mini-banner p {
   }
   #section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
     border-radius: 1.5rem;
-    color: #C80C10;
-    border: 1px #C80C10 solid;
     padding: 0.25rem 1rem;
     font-size: 1.6rem;
     font-weight: 600;
