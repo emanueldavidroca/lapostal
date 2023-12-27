@@ -18,6 +18,7 @@
                 margin-top: 4rem;
                 
                 p{
+                    
                     color: $color-azul;
                     font-size: 0.9rem;
                     font-weight: 1000;
@@ -128,6 +129,7 @@
                     margin-left: auto;
                     margin-top: 6rem;
                     p{
+                        text-shadow: 0px 0px 8px black;
                         color: $color-blanco;
                         font-size: 1.4rem;
                         font-weight: 1000;
@@ -136,6 +138,7 @@
                         }
                     }
                     h3{
+                        text-shadow: 0px 0px 8px black;
                         font-size: $title-size-4;
                         font-weight: 1000;
                         color: $color-blanco;
