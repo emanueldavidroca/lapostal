@@ -86,6 +86,7 @@
 
             }
             span{
+                font-family: "lato-light";
                 color: $color-blanco;
                 font-weight: bold;
                 font-size: $text-size-5;
@@ -105,15 +106,15 @@
         }
         .text{
             color: $color-gris;
-            font-size: $text-size-4;
-            line-height: $text-size-4;
+            font-size: $text-size-5;
+            line-height: $text-size-5;
             width: 85%;
             margin-bottom: 0.85rem;
         }
         .btn{
             
             border-radius:2rem;
-            font-size: $text-size-3;
+            font-size: $text-size-4;
             padding: 0.2rem 1.2rem;
         }
         

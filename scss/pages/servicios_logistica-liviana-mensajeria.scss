@@ -14,7 +14,7 @@
                 margin-top: 4rem;
                 p{
                     color: $color-azul;
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                     font-weight: 1000;
                     span{
                         color: $color-rojo;
@@ -36,7 +36,7 @@
                 > span{
                     font-weight: 600;
                     color: $color-rojo;
-                    font-size: $text-size-5;
+                    font-size: 1.1rem;
                     text-align: right;
                     display: block;
                     line-height: initial;
@@ -62,7 +62,7 @@
                 h3{
                     text-align: start;
                     color: $color-blanco;
-                    font-size: $title-size-4;
+                    font-size: 1.8rem;
                     padding-left: 3.5rem;
                     font-weight: 1000;
                 }
@@ -70,9 +70,9 @@
                     padding-left: 3.5rem;
                     padding-right: 3.5rem;
                     color: $color-blanco;
-                    font-size: 1.1rem;
+                    font-size: 1.05rem;
                     font-weight: 500;
-                    line-height: 1.2rem;
+                    line-height: 1.15rem;
                     margin: 0.45rem 0;
                 }
                 button{
@@ -105,7 +105,7 @@
                 h3{
                     text-align: start;
                     color: $color-rojo;
-                    font-size: $title-size-4;
+                    font-size: 1.8rem;
                     padding-left: 2.5rem;
                     font-weight: 1000;
                 }
@@ -113,9 +113,9 @@
                     padding-left: 2.5rem;
                     padding-right: 3.5rem;
                     color: $color-rojo;
-                    font-size: 1.1rem;
+                    font-size: 1.05rem;
                     font-weight: 500;
-                    line-height: 1.2rem;
+                    line-height: 1.15rem;
                     margin: 0.45rem 0;
                 }
             }
@@ -155,7 +155,7 @@
                 line-height: initial;
                 margin: 0;
                 display: inline-block;
-                font-size: $text-size-3;
+                font-size: $text-size-4;
                 color: $color-azul;
                 font-weight: 600;
                 span{
@@ -170,13 +170,13 @@
         margin: 0 auto 5rem;
         h2{
             margin-left: 0.5rem;
-            font-size: $title-size-4;
+            font-size: 1.9rem;
             color: $color-rojo;
             font-weight: 1000;
         }
         p{
             width: 64%;
-            font-size: $text-size-5;
+            font-size: $text-size-6;
             line-height: initial;
             font-weight: 500;
             color: $color-gris;

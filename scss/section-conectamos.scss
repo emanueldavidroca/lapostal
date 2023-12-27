@@ -45,9 +45,9 @@
                     border-radius: 0.75rem;
                     padding: 0.75rem 1rem;
                     margin-bottom: 1rem;
-                    font-size: $text-size-6;
+                    font-size: 1rem;
                     font-weight: 500;
-                    width: 24rem;
+                    width: 25rem;
                     justify-content: space-between;
                     align-items: center;
                     margin-left: auto;
@@ -135,7 +135,7 @@
                 color: $color-blanco;
             }
             span{
-                font-size: $text-size-6;
+                font-size: 1rem;
                 color: $color-blanco;
                 line-height: initial;
 
@@ -186,9 +186,9 @@
                 }
                 p{
                     margin: 0 0 0.75rem;
-                    line-height: $text-size-2;
+                    line-height: $text-size-3;
                     font-weight: 1000;
-                    font-size: $text-size-2;
+                    font-size: $text-size-3;
                     color: $color-azul;
                 }
             }
@@ -197,7 +197,7 @@
                 align-items: center;
                 justify-content: flex-start;
                 .btn{
-                    font-size: 0.8rem;
+                    font-size: 0.9rem;
                     border-width: 2px;
                     border-radius: 1.25rem;
                     margin-left: 1.5rem;

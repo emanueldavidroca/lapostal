@@ -3,12 +3,13 @@
     background-size: cover;
     min-height: 465px;
     padding-top: 8rem;
-    .container{
+    .contenedor{
         margin-left: 47%;
         .title{
             font-size: $title-size-2;
             color: $color-blanco;
-            font-weight: 1000;
+            font-weight: 400;
+            letter-spacing: 1px;
             line-height: 3.15rem;
             margin-bottom: 1.5rem;
         }
@@ -26,7 +27,7 @@
         background-size: cover;
         min-height: 325px;
         padding-top: 8rem;
-        .container{
+        .contenedor{
             margin-left: 10%;
             .title{
                 font-size: $title-size-2;
