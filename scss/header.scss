@@ -1,3 +1,17 @@
+header.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    animation: 0.15s linear none fixed-start;
+}
+@keyframes fixed-start {
+    0%{
+        margin-top: -150px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
 header{
     background-color: $color-azul;
     .header-menu.activo{
@@ -138,6 +152,12 @@ header{
     }
 }
 @media (max-width:768.1px) {
+    header.fixed {
+        position: relative;
+        width: 100%;
+        z-index: 999;
+        animation: none;
+    }
     header{
         .navbar-toggler{
             display: none;

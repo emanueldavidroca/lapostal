@@ -13,3 +13,12 @@ cerrar.addEventListener("click",()=>{
         menu.classList.remove("activo")
     } 
 });
+
+window.addEventListener("scroll", function() {
+    if(window.pageYOffset > document.querySelector("header").offsetHeight){
+        document.querySelector("header").classList.add("fixed");
+    }else{
+        document.querySelector("header").classList.remove("fixed");
+    }
+
+},false)

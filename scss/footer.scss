@@ -110,6 +110,9 @@ footer{
                 margin-bottom: 5px;
                 font-weight: bold;
             }
+            a:hover{
+                text-decoration: underline;
+            }
         }
         /*3° columna*/
         .links{
@@ -122,6 +125,9 @@ footer{
             .logo-navegar{
                 height: 22px;
             }
+        }
+        .links:hover{
+            text-decoration: underline !important;
         }
     }
     .mini-banner{
