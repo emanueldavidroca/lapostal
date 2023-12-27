@@ -2,10 +2,8 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
     .banner{
-        background-image: url("../img/acceso_clientes.png");
-        background-size: cover;
-        background-position: right;
-        background-repeat: no-repeat;
+        background: rgb(6,0,112);
+        background: linear-gradient(90deg, rgba(6,0,112,1) 0%, rgba(255,0,18,1) 100%);
         padding: 2rem 3rem;
         display: flex;
         align-items: center;

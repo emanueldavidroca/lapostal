@@ -62,7 +62,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <button class="btn" id="tres_barra"><i class="fa-solid fa-bars texto-azul"></i></button>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="img/lapostal_logo_header.png" class="logo_home" alt="">  
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,7 +114,7 @@
               específicos. Frecuencia de Lunes a viernes.
               Tiempo de entrega hasta 24hs.
             </p>
-            <button class="btn">Formulario Nº006 ENACOM</button>
+            <button class="btn btn-rojo">Formulario Nº006 ENACOM</button>
           </div>
         </div>
         <div class="col-12 col-lg-6 columna-2">
@@ -137,20 +137,20 @@
     </div>
     <div class="ventajas">
       <h3>Ventajas de Trabajar con Nosotros:</h3>
-      <div class="fadein">
+      <div class="fadein" data-posicion="26">
         <img src="img/checkbox.png" alt="">
         <p>
           <span>Operadores especializados</span> y capacitados de acuerdo a los requerimientos de su empresa.
           </p>
         
       </div>
-      <div class="fadein">
+      <div class="fadein" data-posicion="30">
         <img src="img/checkbox.png" alt="">
         <p>
           <span>Supervisión de las tareas y reemplazo de recursos en caso de contingencias.</span>
         </p>
       </div>
-      <div class="fadein">
+      <div class="fadein" data-posicion="33">
         <img src="img/checkbox.png" alt="">
         <p>
           <span>Mejor información</span>
@@ -158,7 +158,7 @@
         </p>
         
       </div>
-      <div class="fadein">
+      <div class="fadein" data-posicion="36">
         <img src="img/checkbox.png" alt="">
         <p>
           <span>Mayor eficiencia y mejores costos operativos.</span>
@@ -166,14 +166,14 @@
         </p>
         
       </div>
-      <div class="fadein">
+      <div class="fadein" data-posicion="39">
         <img src="img/checkbox.png" alt="">
         <p>
           <span></span>Analice su actual servicio de motomensajería y descubras las ventajas y el ahorro de utilizar nuestros servicios.
         </p>
       </div>
     </div>
-    <div class="entrega">
+    <div class="entrega fadein" data-posicion="48">
       <h2>Entrega de documentación crítica en horas</h2>
       <p>
         Este servicio ultrarrápido fue pensado para aquellas entregas que no pueden esperar. A través de
@@ -190,17 +190,16 @@
       fadein[index].style.opacity = 0;
     }
 
-    document.querySelector('body').addEventListener('scroll', function(event) {
-      console.log((window.scrollY))
+    window.addEventListener("scroll", function() {
+      const maxHeight = document.body.scrollHeight - window.innerHeight;
       for (let index = 0; index < fadein.length; index++) {
-        if((window.scrollY + window.innerHeight - (window.scrollY / 10)) > fadein[index].offsetTop){
+        let ventana_70 = ((window.pageYOffset * 100) / (maxHeight));
+        let elemento = fadein[index].dataset.posicion;
+        if(ventana_70 > elemento){
           fadein[index].style.opacity = 1;
         }
       } 
     },false)
-
-      
-
   </script>
   <footer>
     <div class="contenedor">
@@ -259,7 +258,7 @@
             <a href="#">Certificado de prestador postal</a>
             <a href="#">Formulario Nº 007<br>
               AMBITO GEOGRAFICO DEL PRESTADOR</a>
-            <a href="#">COD. DE ETICA DE LATIN AMERICA POSTAL S.A.</a>
+            <a href="#">MANUAL DE ÉTICA DE LATIN AMERICA POSTAL S.A.</a>
           </div>
         </div>
         <div class="col-12 col-md-3">

@@ -45,10 +45,8 @@
                 .btn{
                     display: flex;
                     border-radius: 0.75rem;
-                    background-color: $color-azul;
                     padding: 0.9rem 0.85rem;
                     margin-bottom: 1rem;
-                    color: $color-blanco;
                     font-size: $text-size-6;
                     font-weight: 500;
                     width: 26rem;
@@ -61,6 +59,42 @@
         }
         .columna-2{
             position: relative;
+            display: flex;
+            align-items: center;
+            div{
+                margin-top: 13rem;
+                background-color: rgba(255, 255, 255, 0.89);
+                border-top-right-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                padding: 0;
+                position: relative;
+                z-index: 3;
+                height: auto;
+                transition: all 0.2s;
+                width: 75%;
+                p{
+                    display: none;
+                    padding-left: 4.5rem;
+                    padding-right: 1.5rem;
+                    padding-top: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    color: $color-gris;
+                    font-size: 1.05rem;
+                    font-weight: 500;
+                    line-height: 1.2rem;
+                    margin: 0.75rem 0;
+                    opacity: 0;
+                    transition: all 0.3s;
+                    transform: scaleY(0);
+                    overflow: hidden;
+                }
+                p.activo{
+                    transform: scaleY(1);
+                    display:block;
+                    opacity: 1;
+
+                }
+            }
             
             article{
                 z-index: 1;
@@ -95,7 +129,7 @@
                     margin-top: 6rem;
                     p{
                         color: $color-blanco;
-                        font-size: 1.35rem;
+                        font-size: 1.4rem;
                         font-weight: 1000;
                         span{
                             color: $color-rojo;

@@ -19,6 +19,10 @@
   font-family: "inter-semibold";
   src: url("../font/Inter-SemiBold.ttf");
 }
+.fadein {
+  transition: opacity 1.2s;
+}
+
 .texto-blanco {
   color: #fff;
 }
@@ -40,7 +44,14 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+}
+
+input, textarea {
+  transition: all 0.2s;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0px 0px 5px rgba(200, 12, 15, 0.4431372549) !important;
 }
 
 .btn-rojo {
@@ -120,6 +131,7 @@ header .header-menu {
   z-index: 100;
   height: 100vh;
   top: 0px;
+  border-right: 1px #d0d0d0 solid;
   padding: 0.5rem 3rem;
 }
 header .header-menu .cerrar {
@@ -364,10 +376,8 @@ header nav li.dropdown .dropdown-toggle::after {
   margin-bottom: 4rem;
 }
 #section-acceso-clientes .banner {
-  background-image: url("../img/acceso_clientes.png");
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+  background: rgb(6, 0, 112);
+  background: linear-gradient(90deg, rgb(6, 0, 112) 0%, rgb(255, 0, 18) 100%);
   padding: 2rem 3rem;
   display: flex;
   align-items: center;
@@ -1432,7 +1442,7 @@ footer .mini-banner p {
   #section_quienes-somos-1 .content .columna-2 div {
     margin-top: 33rem;
     margin-bottom: 6rem;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.92);
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding: 0;
@@ -1675,7 +1685,7 @@ footer .mini-banner p {
   }
   #section_logistica-outsourcing .content .columna-1 article p {
     color: #004990;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 1000;
   }
   #section_logistica-outsourcing .content .columna-1 article p span {
@@ -1818,10 +1828,8 @@ footer .mini-banner p {
 #section_correo .content .columna-1 .contenedor-botones .btn {
   display: flex;
   border-radius: 0.75rem;
-  background-color: #004990;
   padding: 0.9rem 0.85rem;
   margin-bottom: 1rem;
-  color: #fff;
   font-size: 1.05rem;
   font-weight: 500;
   width: 26rem;
@@ -1868,7 +1876,7 @@ footer .mini-banner p {
   }
   #section_correo .content .columna-1 article p {
     color: #fff;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 1000;
   }
   #section_correo .content .columna-1 article p span {
@@ -1915,10 +1923,8 @@ footer .mini-banner p {
   #section_correo .content .columna-1 .contenedor-botones .btn {
     display: flex;
     border-radius: 0.75rem;
-    background-color: #004990;
     padding: 0.9rem 0.85rem;
     margin-bottom: 1rem;
-    color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
     width: 32rem;
@@ -2021,8 +2027,7 @@ footer .mini-banner p {
 }
 #section_logistica-liviana-mensajeria .content .columna-1 div button {
   margin-top: 0.5rem;
-  background-color: #C80C10;
-  color: #fff;
+  border-width: 2px;
   border-radius: 1.5rem;
   margin-left: 3.5rem;
   font-size: 1.05rem;
@@ -2034,7 +2039,7 @@ footer .mini-banner p {
 #section_logistica-liviana-mensajeria .content .columna-2 div {
   margin-top: 20rem;
   margin-bottom: 10rem;
-  background-color: rgba(200, 12, 15, 0.7058823529);
+  background-color: rgba(255, 255, 255, 0.96);
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0;
@@ -2049,7 +2054,7 @@ footer .mini-banner p {
 }
 #section_logistica-liviana-mensajeria .content .columna-2 div h3 {
   text-align: start;
-  color: #fff;
+  color: #C80C10;
   font-size: 2rem;
   padding-left: 2.5rem;
   font-weight: 1000;
@@ -2057,7 +2062,7 @@ footer .mini-banner p {
 #section_logistica-liviana-mensajeria .content .columna-2 div p {
   padding-left: 2.5rem;
   padding-right: 3.5rem;
-  color: #fff;
+  color: #C80C10;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.2rem;
@@ -2141,7 +2146,7 @@ footer .mini-banner p {
   }
   #section_logistica-liviana-mensajeria .content .columna-1 article p {
     color: #004990;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 1000;
   }
   #section_logistica-liviana-mensajeria .content .columna-1 article p span {
@@ -2196,9 +2201,9 @@ footer .mini-banner p {
     padding-left: 3.5rem;
     padding-right: 1.3rem;
     color: #fff;
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1.55rem;
+    line-height: 1.6rem;
     margin: 0.45rem 0;
   }
   #section_logistica-liviana-mensajeria .content .columna-1 div button {
@@ -2216,7 +2221,7 @@ footer .mini-banner p {
   #section_logistica-liviana-mensajeria .content .columna-2 div {
     margin-top: 28rem;
     margin-bottom: 3rem;
-    background-color: rgba(200, 12, 15, 0.7058823529);
+    background-color: rgba(255, 255, 255, 0.96);
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding: 0;
@@ -2231,7 +2236,7 @@ footer .mini-banner p {
   }
   #section_logistica-liviana-mensajeria .content .columna-2 div h3 {
     text-align: start;
-    color: #fff;
+    color: #C80C10;
     font-size: 2.65rem;
     line-height: 2.65rem;
     padding-left: 3.5rem;
@@ -2240,10 +2245,10 @@ footer .mini-banner p {
   #section_logistica-liviana-mensajeria .content .columna-2 div p {
     padding-left: 3.5rem;
     padding-right: 1.5rem;
-    color: #fff;
-    font-size: 1.4rem;
+    color: #C80C10;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1.55rem;
+    line-height: 1.6rem;
     margin: 0.45rem 0;
   }
   #section_logistica-liviana-mensajeria .content .columna-2 article {
@@ -2353,10 +2358,8 @@ footer .mini-banner p {
 #section_lectura-inteligente .content .columna-1 .contenedor-botones .btn {
   display: flex;
   border-radius: 0.75rem;
-  background-color: #004990;
   padding: 0.9rem 0.85rem;
   margin-bottom: 1rem;
-  color: #fff;
   font-size: 1.05rem;
   font-weight: 500;
   width: 26rem;
@@ -2367,6 +2370,41 @@ footer .mini-banner p {
 }
 #section_lectura-inteligente .content .columna-2 {
   position: relative;
+  display: flex;
+  align-items: center;
+}
+#section_lectura-inteligente .content .columna-2 div {
+  margin-top: 13rem;
+  background-color: rgba(255, 255, 255, 0.89);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0;
+  position: relative;
+  z-index: 3;
+  height: auto;
+  transition: all 0.2s;
+  width: 75%;
+}
+#section_lectura-inteligente .content .columna-2 div p {
+  display: none;
+  padding-left: 4.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #808080;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0.75rem 0;
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scaleY(0);
+  overflow: hidden;
+}
+#section_lectura-inteligente .content .columna-2 div p.activo {
+  transform: scaleY(1);
+  display: block;
+  opacity: 1;
 }
 #section_lectura-inteligente .content .columna-2 article {
   z-index: 1;
@@ -2398,7 +2436,7 @@ footer .mini-banner p {
   }
   #section_lectura-inteligente .content .columna-1 article p {
     color: #fff;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 1000;
   }
   #section_lectura-inteligente .content .columna-1 article p span {
@@ -2519,8 +2557,6 @@ footer .mini-banner p {
   margin-top: 2rem;
   padding: 0rem 1rem;
   border-radius: 2rem;
-  color: #fff;
-  background-color: #C80C10;
 }
 #section_central-monitoreo .content .columna-2 {
   position: relative;
@@ -2610,8 +2646,6 @@ footer .mini-banner p {
     display: block;
     padding: 0rem 1rem;
     border-radius: 2rem;
-    color: #fff;
-    background-color: #C80C10;
     font-size: 1.875rem;
   }
   #section_central-monitoreo .content .columna-2 {
@@ -2811,28 +2845,34 @@ footer .mini-banner p {
   margin-left: auto;
   width: 74%;
   margin-top: 3rem;
+  border: 2px #d20000 solid;
+  padding: 1rem;
+  border-radius: 7px;
 }
 #contacto .content .columna-1 .formulario label {
   color: #C80C10;
   font-weight: 600;
+  display: block;
+  margin: auto;
+  width: 78%;
 }
 #contacto .content .columna-1 .formulario input, #contacto .content .columna-1 .formulario textarea {
   margin-top: 0rem;
   margin-bottom: 0.4rem;
   border: 1px #C80C10 solid;
-  width: 70%;
+  width: 78%;
   padding: 0.5rem 1rem;
   border-radius: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 #contacto .content .columna-1 .formulario button {
   margin-top: 0.5rem;
   padding: 0.2rem 1.4rem 0.3rem;
   border-radius: 2rem;
-  color: #fff;
   line-height: 1.125rem;
   font-size: 1.125rem;
-  background-color: #C80C10;
-  margin-left: 1.35rem;
+  margin-left: 15%;
 }
 #contacto .content .columna-2 {
   position: relative;
@@ -2906,6 +2946,9 @@ footer .mini-banner p {
     padding: 0.5rem 1rem;
     border-radius: 0.75rem;
   }
+  #contacto .content .columna-1 .formulario input:hover, #contacto .content .columna-1 .formulario textarea:hover {
+    box-shadow: none !important;
+  }
   #contacto .content .columna-1 .formulario button {
     margin-top: 0.5rem;
     padding: 0.2rem 1.4rem 0.3rem;
@@ -2915,7 +2958,6 @@ footer .mini-banner p {
     font-size: 1.875rem;
     font-weight: 600;
     background-color: #C80C10;
-    margin-left: 1.35rem;
   }
   #contacto .content .columna-2 {
     position: relative;
