@@ -24,6 +24,10 @@
   src: url("../Fonts/Lato-Light.ttf");
 }
 @font-face {
+  font-family: "lato-bold";
+  src: url("../Fonts/Lato-Bold.ttf");
+}
+@font-face {
   font-family: "montserrat-bold";
   src: url("../Fonts/Montserrat-Bold.otf");
 }
@@ -459,7 +463,7 @@ header nav li.dropdown .dropdown-toggle::after {
   color: black;
 }
 #section-acceso-clientes .cartas.row > div:hover span {
-  padding-bottom: 0.35rem;
+  margin-bottom: 0.35rem;
 }
 #section-acceso-clientes .cartas.row > div:hover img {
   padding-bottom: 0.35rem;
@@ -489,7 +493,7 @@ header nav li.dropdown .dropdown-toggle::after {
   background-size: cover;
   min-height: 280px;
   background-repeat: no-repeat;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 0.95rem;
   position: relative;
 }
 #section-acceso-clientes .cartas.row a .logo-hybrin {
@@ -513,6 +517,8 @@ header nav li.dropdown .dropdown-toggle::after {
   font-weight: bold;
   font-size: 1.125rem;
   transition: all 0.25s;
+  line-height: 1.563rem;
+  min-height: 2.25rem;
 }
 #section-acceso-clientes .unimos {
   margin: auto;

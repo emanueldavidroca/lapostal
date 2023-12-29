@@ -36,7 +36,7 @@
                 color: black;
             }
             span{
-                padding-bottom: 0.35rem;
+                margin-bottom: 0.35rem;
             }
             img{
                 padding-bottom: 0.35rem;
@@ -67,7 +67,7 @@
             background-size: cover;
             min-height: 280px;
             background-repeat: no-repeat;
-            padding: 0.5rem 0.75rem;
+            padding: 0.75rem 0.95rem;
             position: relative;
             .logo-hybrin{
                 transition: all 0.3s;
@@ -91,6 +91,8 @@
                 font-weight: bold;
                 font-size: $text-size-5;
                 transition: all 0.25s;
+                line-height: $text-size-2;
+                min-height: calc($text-size-5 * 2);
             }
         }
         
