@@ -3,7 +3,9 @@
     margin-bottom: 4rem;
     .banner{
         background: rgb(6,0,112);
-        background: linear-gradient(90deg, rgba(6,0,112,1) 0%, rgba(255,0,18,1) 100%);
+        background: 
+        linear-gradient(90deg,rgba(255, 0, 17,1) 0%,
+         rgb(255, 0, 17) 40%, rgba(6,0,112, 1) 75%, rgba(6,0,112, 1) 100%);
         padding: 2rem 3rem;
         display: flex;
         align-items: center;
@@ -123,6 +125,16 @@
         img{
             width: 100%;
         }
+    }
+    .subtitle{
+        position: absolute;
+        bottom:1.5rem;
+        display: block;
+        text-align: center;
+        width: 100%;
+        color:white;
+        font-size: 1.25rem;
+        font-family: "lato-bold";
     }
 }
 @media (max-width:768.1px){

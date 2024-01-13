@@ -13,7 +13,7 @@ header.fixed {
     }
 }
 header{
-    background-color: $color-azul;
+    background-color: $color-blanco;
     .header-menu.activo{
         display: block;
     }
@@ -77,14 +77,17 @@ header{
         .col{
             margin-left: 8%;
             span{
-                font-size: 0.85rem;
+                font-size: 0.9rem;
                 font-weight: 300;
-                color: $color-mute;
+                color: $color-azul;
+                font-weight: 500;
+
             }
             p{
-                font-size: 0.95rem;
-                color: $color-blanco;
+                font-size: 1rem;
+                color: $color-azul;
                 margin-top: -3px;
+                font-weight: 500;
             }
         }
         .col:last-child span{
