@@ -470,11 +470,16 @@ header nav li.dropdown .dropdown-toggle::after {
 #section-acceso-clientes .cartas.row > div:hover img {
   padding-bottom: 0.35rem;
 }
+#section-acceso-clientes .cartas.row > div:first-child svg {
+  color: grey;
+  border: 1px grey solid;
+  background-color: white;
+}
 #section-acceso-clientes .cartas.row .columna-1 a {
-  background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
+  background-image: url("../img/acceso-cliente/LaPostal-img-7.png");
 }
 #section-acceso-clientes .cartas.row .columna-2 a {
-  background-image: url("../img/acceso-cliente/LaPostal-img-2.jpg");
+  background-image: url("../img/acceso-cliente/LaPostal-img-2-new.png");
 }
 #section-acceso-clientes .cartas.row .columna-3 a {
   background-image: url("../img/acceso-cliente/LaPostal-img-3.jpg");

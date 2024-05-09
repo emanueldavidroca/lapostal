@@ -44,11 +44,18 @@
                 padding-bottom: 0.35rem;
             }
         }
+        > div:first-child{
+            svg{
+                color: grey;
+                border: 1px grey solid;
+                background-color: white;
+            }
+        }
         .columna-1 a{
-            background-image: url("../img/acceso-cliente/LaPostal-img-1.jpg");
+            background-image: url("../img/acceso-cliente/LaPostal-img-7.png");
         }
         .columna-2 a{
-            background-image: url("../img/acceso-cliente/LaPostal-img-2.jpg");
+            background-image: url("../img/acceso-cliente/LaPostal-img-2-new.png");
         }
         .columna-3 a{
             background-image: url("../img/acceso-cliente/LaPostal-img-3.jpg");
