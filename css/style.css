@@ -347,11 +347,12 @@ header nav li.dropdown .dropdown-toggle::after {
     margin-left: 0px;
   }
   header .banner .row .col span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
   header .banner .row .col p {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
+    word-spacing: -1px;
   }
   header .banner .row .col:last-child span {
     margin-left: 0;
@@ -2737,6 +2738,245 @@ footer .mini-banner p {
     height: 22rem;
   }
   #section_central-monitoreo .content .columna-2 article {
+    z-index: 1;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    background-image: url("../img/central_monitoreo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+#section_sustentabilidad {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+#section_sustentabilidad .content .columna-1 {
+  position: relative;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_sustentabilidad .content .columna-1 article {
+  width: 74%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+#section_sustentabilidad .content .columna-1 article p {
+  color: #004990;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+#section_sustentabilidad .content .columna-1 article p span {
+  color: #C80C10;
+}
+#section_sustentabilidad .content .columna-1 article h3 {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: #004990;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  padding-right: 2rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: end;
+}
+#section_sustentabilidad .content .columna-1 > strong {
+  margin-left: auto;
+  width: 85%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  color: #C80C10;
+  padding-right: 2rem;
+  margin-bottom: 0.35rem;
+  text-decoration: underline;
+}
+#section_sustentabilidad .content .columna-1 > span {
+  margin-left: auto;
+  width: 85%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  color: #C80C10;
+  padding-right: 2rem;
+  margin-bottom: 0.75rem;
+}
+#section_sustentabilidad .content .columna-1 > ul {
+  margin-left: auto;
+  width: 75%;
+  text-align: left;
+  padding-right: 2rem;
+}
+#section_sustentabilidad .content .columna-1 > ul li {
+  color: #C80C10;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+#section_sustentabilidad .content .columna-1 .parrafo {
+  margin-left: auto;
+  width: 85%;
+  text-align: end;
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  color: #C80C10;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+}
+#section_sustentabilidad .content .columna-1 div {
+  margin-left: auto;
+  width: 74%;
+}
+#section_sustentabilidad .content .columna-1 div input {
+  margin-top: 1rem;
+  border: 1px #C80C10 solid;
+  width: 70%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+#section_sustentabilidad .content .columna-1 div input::placeholder {
+  color: #C80C10;
+}
+#section_sustentabilidad .content .columna-1 div button {
+  margin-top: 2rem;
+  padding: 0rem 1rem;
+  border-radius: 2rem;
+}
+#section_sustentabilidad .content .columna-2 {
+  position: relative;
+}
+#section_sustentabilidad .content .columna-2 article {
+  z-index: 1;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  background-image: url("../img/central_monitoreo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768.1px) {
+  #section_sustentabilidad .content .columna-1 {
+    position: relative;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #section_sustentabilidad .content .columna-1 article {
+    width: 94%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 6rem;
+  }
+  #section_sustentabilidad .content .columna-1 article p {
+    color: #004990;
+    font-size: 1.4rem;
+    font-weight: 1000;
+  }
+  #section_sustentabilidad .content .columna-1 article p span {
+    color: #C80C10;
+  }
+  #section_sustentabilidad .content .columna-1 article h3 {
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #004990;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    padding-right: 2rem;
+    width: 100%;
+    margin-left: auto;
+    text-align: left;
+  }
+  #section_sustentabilidad .content .columna-1 > strong {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #C80C10;
+    padding-right: 0rem;
+    margin-bottom: 0.65rem;
+    text-decoration: underline;
+  }
+  #section_sustentabilidad .content .columna-1 > span {
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.55rem;
+    color: #C80C10;
+    padding-right: 0rem;
+    margin-bottom: 0.75rem;
+  }
+  #section_sustentabilidad .content .columna-1 > ul {
+    margin-left: auto;
+    width: 90%;
+    text-align: left;
+    padding-right: 0rem;
+  }
+  #section_sustentabilidad .content .columna-1 > ul li {
+    color: #C80C10;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  #section_sustentabilidad .content .columna-1 .parrafo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.65rem;
+    font-weight: 400;
+    color: #C80C10;
+    padding-right: 0rem;
+  }
+  #section_sustentabilidad .content .columna-1 div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+  }
+  #section_sustentabilidad .content .columna-1 div input {
+    margin-top: 1rem;
+    border: 1px #C80C10 solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.563rem;
+  }
+  #section_sustentabilidad .content .columna-1 div input::placeholder {
+    color: #C80C10;
+  }
+  #section_sustentabilidad .content .columna-1 div button {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.875rem;
+  }
+  #section_sustentabilidad .content .columna-2 {
+    position: relative;
+    height: 22rem;
+  }
+  #section_sustentabilidad .content .columna-2 article {
     z-index: 1;
     right: 0px;
     position: absolute;

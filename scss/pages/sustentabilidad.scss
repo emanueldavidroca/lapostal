@@ -1,0 +1,254 @@
+#section_sustentabilidad{
+    background-color: $color-blanco;
+    position: relative;
+    z-index: 0;
+    
+    .content{
+        
+        .columna-1{
+            position: relative;
+            padding-bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            article{
+                width: 74%;
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: 4rem;
+                
+                p{
+                    color: $color-azul;
+                    font-size: 1rem;
+                    font-weight: 1000;
+                    span{
+                        color: $color-rojo;
+                    }
+                }
+                h3{
+                    font-size: $title-size-4;
+                    font-weight: 1000;
+                    color: $color-azul;
+                    line-height: $title-size-4;
+                    margin-bottom: 1rem;
+                    margin-top: 6rem;
+                    padding-right: 2rem;
+                    width: 100%;
+                    margin-left: auto;
+                    text-align: end;
+                }
+            }
+            > strong{
+                margin-left:auto;
+                width: 85%;
+                text-align: center;
+                font-size: 1rem;
+                line-height: 1.35rem;
+                color: $color-rojo;
+                padding-right: 2rem;
+                margin-bottom: 0.35rem;
+                text-decoration: underline;
+            }
+            > span{
+                margin-left:auto;
+                width: 85%;
+                text-align: center;
+                font-size: 1rem;
+                line-height: 1.35rem;
+                color: $color-rojo;
+                padding-right: 2rem;
+                margin-bottom: 0.75rem;
+            }
+            > ul{
+                margin-left:auto;
+                width: 75%;
+                text-align: left;
+                
+                
+                padding-right: 2rem;
+                li{
+                    color: $color-rojo;
+                    font-size: 1rem;
+                    line-height: 1.3rem;
+                }
+            }
+            
+            .parrafo{
+                margin-left:auto;
+                width: 85%;
+                text-align: end;
+                font-size: 0.95rem;
+                line-height: 1.3rem;
+                color: $color-rojo;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                padding-right: 2rem;
+            }
+            div{
+                margin-left:auto;
+                width: 74%;
+                input{
+                    margin-top: 1rem;
+                    border: 1px $color-rojo solid;
+                    width: 70%;
+                    padding: 0.7rem 1rem;
+                    border-radius: 0.5rem;
+                }
+                input::placeholder {
+                    color:$color-rojo;
+                }                  
+                button{
+                    margin-top: 2rem;
+                    padding: 0rem 1rem;
+                    border-radius: 2rem;
+                }
+            }
+        }
+        .columna-2{
+            position: relative;
+            
+            article{
+                z-index: 1;
+                right: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin-left: auto;
+                background-image: url("../img/central_monitoreo.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                
+            } 
+        }
+    }
+}
+@media (max-width:768.1px){
+    #section_sustentabilidad{
+        .content{
+            .columna-1{
+                position: relative;
+                padding-bottom: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                article{
+                    width: 94%;
+                    margin-right: 0;
+                    margin-left: auto;
+                    margin-top: 6rem;
+                    p{
+                        color: $color-azul;
+                        font-size: 1.4rem;
+                        font-weight: 1000;
+                        span{
+                            color: $color-rojo;
+                        }
+                    }
+                    h3{
+                        font-size: $title-size-4;
+                        font-weight: 1000;
+                        color: $color-azul;
+                        line-height: $title-size-4;
+                        margin-bottom: 1rem;
+                        margin-top: 3rem;
+                        padding-right: 2rem;
+                        width: 100%;
+                        margin-left: auto;
+                        text-align: left;
+                    }
+                }
+                > strong{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 85%;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    line-height: 1.75rem;
+                    color: $color-rojo;
+                    padding-right: 0rem;
+                    margin-bottom: 0.65rem;
+                    text-decoration: underline;
+                }
+                > span{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 88%;
+                    text-align: center;
+                    font-size: 1.35rem;
+                    line-height: 1.55rem;
+                    color: $color-rojo;
+                    padding-right: 0rem;
+                    margin-bottom: 0.75rem;
+                }
+                > ul{
+                    margin-left:auto;
+                    width: 90%;
+                    text-align: left;
+                    padding-right: 0rem;
+                    li{
+                        color: $color-rojo;
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                    }
+                }
+                
+                .parrafo{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 88%;
+                    text-align: center;
+                    font-size: 1.35rem;
+                    line-height: 1.65rem;
+                    font-weight: 400;
+                    color: $color-rojo;
+                    padding-right: 0rem;
+                }
+                div{
+                    margin-left:auto;
+                    margin-right:auto;
+                    width: 74%;
+                    input{
+                        margin-top: 1rem;
+                        border: 1px $color-rojo solid;
+                        width: 70%;
+                        margin-left:auto;
+                        margin-right:auto;
+                        padding: 0.7rem 1rem;
+                        border-radius: 0.5rem;
+                        font-size: $text-size-2;
+                    }
+                    input::placeholder {
+                        color:$color-rojo;
+                    }                  
+                    button{
+                        margin-top: 1rem;
+                        margin-left:auto;
+                        margin-right:auto;
+                        display: block;
+                        padding: 0rem 1rem;
+                        border-radius: 2rem;
+                        font-size: $text-size-1;
+                    }
+                }
+            }
+            .columna-2{
+                position: relative;
+                height: 22rem;
+                article{
+                    z-index: 1;
+                    right: 0px;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    background-image: url("../img/central_monitoreo.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    
+                } 
+            }
+        }
+    }
+}
