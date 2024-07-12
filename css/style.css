@@ -700,8 +700,8 @@ header nav li.dropdown .dropdown-toggle::after {
   color: #fff;
 }
 #section-conectamos .content .columna-1 {
-  padding-top: 5rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 14rem;
 }
 #section-conectamos .content .columna-1 article {
   width: 60%;
@@ -738,32 +738,35 @@ header nav li.dropdown .dropdown-toggle::after {
   background-color: #fff;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding: 1.5rem 0;
+  padding: 0.85rem 0;
   position: relative;
   z-index: 3;
   height: auto;
   transition: all 0.2s;
-  width: 75%;
+  width: 86%;
 }
 #section-conectamos .content .columna-2 div img {
   width: 70px;
   margin-left: 3rem;
 }
-#section-conectamos .content .columna-2 div p {
+#section-conectamos .content .columna-2 div ul {
+  font-family: "montserrat-regular";
+}
+#section-conectamos .content .columna-2 div .tarjeta {
   display: none;
-  padding-left: 4.5rem;
-  padding-right: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 0.5rem;
   color: #808080;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  line-height: 1.2rem;
-  margin: 0.75rem 0;
+  line-height: 1.1rem;
+  margin: 0.65rem 0;
   opacity: 0;
   transition: all 0.3s;
   transform: scaleY(0);
   overflow: hidden;
 }
-#section-conectamos .content .columna-2 div p.activo {
+#section-conectamos .content .columna-2 div .tarjeta.activo {
   transform: scaleY(1);
   display: block;
   opacity: 1;
@@ -897,18 +900,19 @@ header nav li.dropdown .dropdown-toggle::after {
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding: 1.2rem 0;
-    width: 86%;
+    width: 92%;
   }
   #section-conectamos .content .columna-2 div img {
+    z-index: 111;
     width: 40px;
     position: absolute;
     top: 10px;
     left: 5px;
     margin-left: 0px;
   }
-  #section-conectamos .content .columna-2 div p {
-    font-size: 1.45rem;
-    line-height: 1.6rem;
+  #section-conectamos .content .columna-2 div .tarjeta {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
     padding-left: 6.5rem;
     padding-right: 1rem;
     margin-top: 5px;

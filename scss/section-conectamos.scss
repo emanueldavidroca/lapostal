@@ -25,8 +25,8 @@
     .content{
         
         .columna-1{
-            padding-top: 5rem;
-            padding-bottom: 8rem;
+            padding-top: 4rem;
+            padding-bottom: 14rem;
             article{
                 width: 60%;
                 margin-right: 0;
@@ -64,31 +64,34 @@
                 background-color: $color-blanco;
                 border-top-right-radius: 1rem;
                 border-bottom-right-radius: 1rem;
-                padding: 1.5rem 0;
+                padding: 0.85rem 0;
                 position: relative;
                 z-index: 3;
                 height: auto;
                 transition: all 0.2s;
-                width: 75%;
+                width: 86%;
                 img{
                     width: 70px;
                     margin-left: 3rem;
                 }
-                p{
+                ul{
+                    font-family: "montserrat-regular";
+                }
+                .tarjeta{
                     display: none;
-                    padding-left: 4.5rem;
-                    padding-right: 1.5rem;
+                    padding-left: 4rem;
+                    padding-right: 0.5rem;
                     color: $color-gris;
-                    font-size: 1.05rem;
+                    font-size: 0.9rem;
                     font-weight: 500;
-                    line-height: 1.2rem;
-                    margin: 0.75rem 0;
+                    line-height: 1.10rem;
+                    margin: 0.65rem 0;
                     opacity: 0;
                     transition: all 0.3s;
                     transform: scaleY(0);
                     overflow: hidden;
                 }
-                p.activo{
+                .tarjeta.activo{
                     transform: scaleY(1);
                     display:block;
                     opacity: 1;
@@ -241,17 +244,18 @@
                     margin-top: 6rem;
                     margin-bottom: 6rem;
                     padding: 1.2rem 0;
-                    width: 86%;
+                    width: 92%;
                     img{
+                        z-index: 111;
                         width: 40px;
                         position: absolute;
                         top: 10px;
                         left: 5px;
                         margin-left:0px;
                     }
-                    p{
-                        font-size: 1.45rem;
-                        line-height: 1.6rem;
+                    .tarjeta{
+                        font-size: 1.35rem;
+                        line-height: 1.5rem;
                         padding-left:6.5rem;
                         padding-right:1rem;
                         margin-top: 5px;
