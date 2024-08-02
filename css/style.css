@@ -432,8 +432,8 @@ header nav li.dropdown .dropdown-toggle::after {
   margin-bottom: 4rem;
 }
 #section-acceso-clientes .banner {
-  background: rgb(6, 0, 112);
-  background: linear-gradient(90deg, rgb(255, 0, 17) 0%, rgb(255, 0, 17) 40%, rgb(6, 0, 112) 75%, rgb(6, 0, 112) 100%);
+  background: url("../img/barra_color.png");
+  background-size: cover;
   padding: 2rem 3rem;
   display: flex;
   align-items: center;
