@@ -28,16 +28,16 @@
 }
 @font-face {
     font-family: "montserrat-bold";
-    src: url("../Fonts/Montserrat-Bold.otf");
-}
-@font-face {
+    src: url("../font/Montserrat-Bold.ttf");
+  }
+  @font-face {
     font-family: "montserrat-regular";
-    src: url("../Fonts/Montserrat-Regular.otf");
-}
-@font-face {
+    src: url("../font/Montserrat-Regular.ttf");
+  }
+  @font-face {
     font-family: "montserrat-black";
-    src: url("../Fonts/Montserrat-Black.otf");
-}
+    src: url("../font/Montserrat-Black.ttf");
+  }
 $title-size-1:3.7rem;//59px
 $title-size-2:3rem;//49px
 $title-size-3:2.65rem;//49px
@@ -120,6 +120,14 @@ input:focus,textarea:focus{
     }
 }
 .btn-azul:hover{
+    color: $color-azul ;
+    background-color: $color-blanco;
+    border: 1px $color-azul solid;
+    svg{
+        transform: rotate(90deg);
+    }
+}
+.btn-azul.activo{
     color: $color-azul ;
     background-color: $color-blanco;
     border: 1px $color-azul solid;

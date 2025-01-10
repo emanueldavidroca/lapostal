@@ -7,11 +7,17 @@ footer{
         padding-left:10%;
         padding-right:10%;
         padding-bottom: 5rem;
+        #ssl{
+            position: absolute;
+            bottom: 3rem;
+            right: 10rem;
+            width: 130px;
+        }
         #data-fiscal{
             position: absolute;
             bottom: 3rem;
             right: 3rem;
-            width: 90px;
+            width: 80px;
 
         }
         .row{
@@ -64,7 +70,7 @@ footer{
                 font-family: "inter-medium";
                 font-weight: 500;
                 line-height: initial;
-                margin-top: 0.65rem;
+                margin-top: 0.35rem;
             }
             span{
                 line-height: initial;
@@ -187,6 +193,8 @@ footer{
                 width: 80%;
             }
             .row{
+                margin-bottom:6rem;
+
                 .col-12{
                     margin-bottom:1rem;
                 }
@@ -252,10 +260,15 @@ footer{
                 font-size: $text-size-3;
 
             }
+            #ssl{
+                bottom: 0.5rem;
+                right: 47%;
+                width: 80px;
+            }
             #data-fiscal{
                 bottom: 0.5rem;
-                right: 1rem;
-                width: 55px;
+                right: 35%;
+                width: 50px;
             }
         }
         .mini-banner{

@@ -29,15 +29,15 @@
 }
 @font-face {
   font-family: "montserrat-bold";
-  src: url("../Fonts/Montserrat-Bold.otf");
+  src: url("../font/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: "montserrat-regular";
-  src: url("../Fonts/Montserrat-Regular.otf");
+  src: url("../font/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: "montserrat-black";
-  src: url("../Fonts/Montserrat-Black.otf");
+  src: url("../font/Montserrat-Black.ttf");
 }
 .fadein {
   transition: opacity 1.2s;
@@ -120,6 +120,15 @@ input:focus, textarea:focus {
   border: 1px #004990 solid;
 }
 .btn-azul:hover svg {
+  transform: rotate(90deg);
+}
+
+.btn-azul.activo {
+  color: #004990;
+  background-color: #fff;
+  border: 1px #004990 solid;
+}
+.btn-azul.activo svg {
   transform: rotate(90deg);
 }
 
@@ -432,13 +441,13 @@ header nav li.dropdown .dropdown-toggle::after {
   margin-bottom: 4rem;
 }
 #section-acceso-clientes .banner {
-  background: url("../img/barra_color.png");
+  background: linear-gradient(90deg, rgb(6, 0, 112) 0%, rgb(6, 0, 112) 55%, rgb(255, 0, 17) 95%, rgb(255, 0, 17) 100%);
   background-size: cover;
   padding: 2rem 3rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: 72%;
+  width: 100%;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -477,6 +486,8 @@ header nav li.dropdown .dropdown-toggle::after {
   background-color: white;
 }
 #section-acceso-clientes .cartas.row .columna-1 a {
+  background-size: contain;
+  background-position: center;
   background-image: url("../img/acceso-cliente/LaPostal-img-7.png");
 }
 #section-acceso-clientes .cartas.row .columna-2 a {
@@ -527,6 +538,7 @@ header nav li.dropdown .dropdown-toggle::after {
   transition: all 0.25s;
   line-height: 1.563rem;
   min-height: 2.25rem;
+  width: 86%;
 }
 #section-acceso-clientes .unimos {
   margin: auto;
@@ -574,7 +586,7 @@ header nav li.dropdown .dropdown-toggle::after {
   #section-acceso-clientes .banner {
     padding: 2rem 7rem 1rem 1.5rem;
     align-items: center;
-    width: 92%;
+    width: 100%;
     margin: auto;
     margin-bottom: 2rem;
   }
@@ -743,7 +755,7 @@ header nav li.dropdown .dropdown-toggle::after {
   z-index: 3;
   height: auto;
   transition: all 0.2s;
-  width: 86%;
+  width: 90%;
 }
 #section-conectamos .content .columna-2 div img {
   width: 70px;
@@ -754,8 +766,8 @@ header nav li.dropdown .dropdown-toggle::after {
 }
 #section-conectamos .content .columna-2 div .tarjeta {
   display: none;
-  padding-left: 4rem;
-  padding-right: 0.5rem;
+  padding-left: 3.75rem;
+  padding-right: 0.2rem;
   color: #808080;
   font-size: 0.9rem;
   font-weight: 500;
@@ -1034,11 +1046,17 @@ footer .contenedor {
   /*2° columna*/
   /*3° columna*/
 }
+footer .contenedor #ssl {
+  position: absolute;
+  bottom: 3rem;
+  right: 10rem;
+  width: 130px;
+}
 footer .contenedor #data-fiscal {
   position: absolute;
   bottom: 3rem;
   right: 3rem;
-  width: 90px;
+  width: 80px;
 }
 footer .contenedor .row {
   margin-top: 3rem;
@@ -1083,7 +1101,7 @@ footer .contenedor .direccion .subtitle {
   font-family: "inter-medium";
   font-weight: 500;
   line-height: initial;
-  margin-top: 0.65rem;
+  margin-top: 0.35rem;
 }
 footer .contenedor .direccion span {
   line-height: initial;
@@ -1203,6 +1221,9 @@ footer .mini-banner p {
   footer .contenedor .logo-oro {
     width: 80%;
   }
+  footer .contenedor .row {
+    margin-bottom: 6rem;
+  }
   footer .contenedor .row .col-12 {
     margin-bottom: 1rem;
   }
@@ -1243,10 +1264,15 @@ footer .mini-banner p {
   footer .contenedor .links {
     font-size: 1.4rem;
   }
+  footer .contenedor #ssl {
+    bottom: 0.5rem;
+    right: 47%;
+    width: 80px;
+  }
   footer .contenedor #data-fiscal {
     bottom: 0.5rem;
-    right: 1rem;
-    width: 55px;
+    right: 35%;
+    width: 50px;
   }
   footer .mini-banner {
     padding-top: 1.2rem;
@@ -1732,7 +1758,7 @@ footer .mini-banner p {
   margin-left: auto;
   width: 70%;
 }
-#section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
+#section_logistica-outsourcing .content .columna-1 .contenedor-botones button, #section_logistica-outsourcing .content .columna-1 .contenedor-botones a {
   border-radius: 1.5rem;
   padding: 0.25rem 1rem;
   font-size: 0.85rem;
@@ -1751,7 +1777,7 @@ footer .mini-banner p {
   width: 100%;
   margin-left: auto;
   background-image: url("../img/logistica-outsourcing.jpg");
-  transform: rotateY(180deg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1817,7 +1843,7 @@ footer .mini-banner p {
     margin-right: auto;
     width: 80%;
   }
-  #section_logistica-outsourcing .content .columna-1 .contenedor-botones button {
+  #section_logistica-outsourcing .content .columna-1 .contenedor-botones button, #section_logistica-outsourcing .content .columna-1 .contenedor-botones a {
     border-radius: 1.5rem;
     padding: 0.25rem 1rem;
     font-size: 1.6rem;
@@ -2470,7 +2496,7 @@ footer .mini-banner p {
   z-index: 3;
   height: auto;
   transition: all 0.2s;
-  width: 75%;
+  width: 80%;
 }
 #section_lectura-inteligente .content .columna-2 div p {
   display: none;
@@ -2479,7 +2505,7 @@ footer .mini-banner p {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   color: #808080;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.2rem;
   margin: 0.75rem 0;
@@ -2792,16 +2818,16 @@ footer .mini-banner p {
   margin-left: auto;
   text-align: end;
 }
-#section_sustentabilidad .content .columna-1 > strong {
+#section_sustentabilidad .content .columna-1 strong {
   margin-left: auto;
-  width: 85%;
+  width: 100%;
   text-align: center;
+  display: block;
   font-size: 1rem;
   line-height: 1.35rem;
-  color: #C80C10;
+  color: green;
   padding-right: 2rem;
-  margin-bottom: 0.35rem;
-  text-decoration: underline;
+  margin-bottom: 0.05rem;
 }
 #section_sustentabilidad .content .columna-1 > span {
   margin-left: auto;
@@ -2809,7 +2835,8 @@ footer .mini-banner p {
   text-align: center;
   font-size: 1rem;
   line-height: 1.35rem;
-  color: #C80C10;
+  color: black;
+  font-weight: bold;
   padding-right: 2rem;
   margin-bottom: 0.75rem;
 }
@@ -2820,7 +2847,7 @@ footer .mini-banner p {
   padding-right: 2rem;
 }
 #section_sustentabilidad .content .columna-1 > ul li {
-  color: #C80C10;
+  color: black;
   font-size: 1rem;
   line-height: 1.3rem;
 }
@@ -2830,10 +2857,11 @@ footer .mini-banner p {
   text-align: end;
   font-size: 0.95rem;
   line-height: 1.3rem;
-  color: #C80C10;
+  color: black;
   margin-bottom: 1rem;
   margin-top: 1rem;
   padding-right: 2rem;
+  text-align: justify;
 }
 #section_sustentabilidad .content .columna-1 div {
   margin-left: auto;
@@ -2864,10 +2892,16 @@ footer .mini-banner p {
   height: 100%;
   width: 100%;
   margin-left: auto;
-  background-image: url("../img/sustentabilidad.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+#section_sustentabilidad .content .columna-2 article .carousel-inner {
+  height: 100%;
+}
+#section_sustentabilidad .content .columna-2 article .carousel-inner .carousel-item {
+  height: 100%;
+}
+#section_sustentabilidad .content .columna-2 article .carousel-inner .carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 768.1px) {
@@ -2904,7 +2938,7 @@ footer .mini-banner p {
     margin-left: auto;
     text-align: left;
   }
-  #section_sustentabilidad .content .columna-1 > strong {
+  #section_sustentabilidad .content .columna-1 strong {
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -2987,10 +3021,6 @@ footer .mini-banner p {
     height: 100%;
     width: 100%;
     margin-left: auto;
-    background-image: url("../img/sustentabilidad.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 }
 #section_cadete-moto {

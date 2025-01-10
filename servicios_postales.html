@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="js/header-menu.js" defer></script>
+	
+</head>
+<body>
+  <header>
+    
+    <div class="header-menu">
+      <article>
+        <button class="btn cerrar"><i class="fa-solid fa-times fa-2x"></i></button>
+        <p><img src="img/nube_logo.png" alt=""> Servicios <i class="fa-solid fa-chevron-down fa-xs"></i></p>
+         <a href="servicios_postales.html">Servicios Postales</a>
+        <a href="servicios_logistica-liviana-mensajeria.html">Logística liviana y mensajería</a>
+        <a href="servicios_lectura-inteligente.html">Lectura inteligente de medidores</a>
+        <a href="servicios_logistica-outsourcing.html">Soluciones Logística, outsourcing y BPO</a>
+        <p></p>
+        <a href="servicios_central-monitoreo.html">Central de monitoreo</a>
+        
+        
+
+        <p class="seguinos">Seguinos en:</p>
+        <div class="social">
+          <i class="fa-brands fa-lg fa-instagram"></i>
+          <i class="fa-brands fa-lg fa-square-facebook"></i>
+          <i class="fa-brands fa-lg fa-linkedin"></i>
+        </div>
+      </article>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="btn" id="tres_barra"><i class="fa-solid fa-bars texto-azul"></i></button>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/lapostal_logo_header.png" class="logo_home" alt="">  
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="section_correo">
+    <div class="content">
+      <div class="row gx-0">
+        <div class="col-12 col-lg-6 columna-1">
+          <article>
+            <p>Servicios > <span> Postales</span></p>
+            <h3>Sume innovación, <br>
+              trazabilidad y tecnología <br>
+              en servicios postales.</h3>
+          </article>
+          <div class="contenedor-botones">
+            <button class="btn btn-azul basico" onclick="parrafo_rojo('p1',30)">
+              <span>Servicios Básicos</span><i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="btn btn-azul valor"   onclick="parrafo_rojo('p2',20)">
+              <span>Servicios con Valor Agregado</span><i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="btn btn-azul encomienda"  onclick="parrafo_rojo('p3',10)">
+              <span>Servicios de encomienda y bolsín</span><i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <button class="btn btn-azul comunicacion"  onclick="parrafo_rojo('p4',22)">
+              <span>Servicios de Comunicaciones Fehacientes</span><i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="parrafo-rojo"style="height: 30rem;">
+            <p class="p1 activo" >
+              <b>- Carta Simple</b><br>
+              <a href="pdf/Form RNPSP 006 Simple.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta con Acuse de Recibo</b><br>
+              <a href="pdf/Form RNPSP 006 Carta con Acuse.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta Certificada</b><br>
+              <a href="pdf/Form RNPSP 006 Carta Certificada.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Impresos</b><br>
+              <a href="pdf/Form RNPSP 006 Impresos.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta expreso</b><br>
+              <a href="pdf/Form RNPSP 006 Carta Expreso.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Planillado Simple</b><br>
+              <a href="pdf/Form RNPSP 006 Planillado Simple.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta con copia</b><br>
+              <a href="pdf/Form RNPSP 006 Carta con Copia.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+            </p>
+            <p class="p2">
+              <b>- Servicio Digital Report</b><br>
+              <a href="pdf/Formulario-No-006-Servicio-Digital-Report.pdf" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Tarjetas de Crédito</b><br>
+              <a href="pdf/Form RNPSP 006 Tarjeta de Créditos.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Aviso de Corte</b><br>
+              <a href="pdf/Form RNPSP 006 Aviso de Corte.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta Factura</b><br>
+              <a href="pdf/Form RNPSP 006 Carta Factura.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+            </p>
+            <p class="p3">
+              <b>- Encomienda</b><br>
+              <a href="pdf/Form RNPSP 006 Encomienda.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Bolsines</b><br>
+              <a href="pdf/Form RNPSP 006 Bolsines.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+            </p>
+            <p class="p4">
+              <b>- C.D. La Postal (Carta Documento La Postal)</b><br>
+              <a href="pdf/Form RNPSP 006 Carta Documento.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Telegrama</b><br>
+              <a href="pdf/Form RNPSP 006 Telegrama.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Carta Intimación para Usuarios</b><br>
+              <a href="pdf/Formulario-No-006-Carta-Intimacion-Para-Usuarioa.pdf" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Plataforma de Comunicaciones documentales (uso corporativo)</b><br>
+              <a href="pdf/Formulario-No-006-Plataforma-de-Comunicaciones-Documentales-Uso-Corporat....pdf" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+              <b>- Mensajeria Urbana</b><br>
+              <a href="pdf/Form RNPSP 006 Mensajeria Urbana.xls" target="_blank" class="btn btn-sm ms-2 my-2 py-1 rounded-5 btn-rojo-inverted">Formulario Nº006 ENACOM</a><br>
+            </p>
+          </div>
+          
+        </div>
+        <div class="col-12 col-lg-6 columna-2">
+          <article></article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    console.log(urlParams.get("a"));
+    if(urlParams.get("a") =="valor"){
+      document.querySelector(" .btn.btn-azul.valor").classList.add("activo")
+    }
+    function parrafo_rojo(p,tamaño){
+      let parrafos = document.querySelectorAll('.parrafo-rojo p');
+      let btns = document.querySelectorAll('.contenedor-botones .btn.btn-azul');
+      
+      for (let index = 0; index < btns.length; index++) {
+        btns[index].classList.remove('activo')
+      }
+      for (let index = 0; index < parrafos.length; index++) {
+        parrafos[index].classList.remove('activo')
+      }
+      document.querySelector('.parrafo-rojo .'+p).classList.add('activo')
+      document.querySelector('.parrafo-rojo').style.height = tamaño+"rem";
+    }
+  </script>
+  <footer>
+    <div class="contenedor">
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-3">
+          <p><b>LATIN AMERICA POSTAL</b><br>
+            RNPSP: <b>078</b></p>
+          <div class="mail">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>0800 - 999 - 5276 (LA POSTAL)</span>
+          </div>
+          <div class="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <span>info@lapostal.com.ar</span>
+          </div>
+          <p class="seguinos">Seguinos en:</p>
+          <div class="social">
+            <i class="fa-brands fa-lg fa-instagram"></i>
+            <i class="fa-brands fa-lg fa-square-facebook"></i>
+            <i class="fa-brands fa-lg fa-linkedin"></i>
+          </div>
+          <div class="direccion">
+            <p class="title">CENTROS DE DISTRIBUCIÓN</p>
+<div class="subtitle">⦁	Chacabuco 1386 CABA<br></div>
+            <span>De lunes a viernes de 7 a 17 hs.</span>
+
+            <div class="subtitle">⦁	Brasil 969 CABA<br></div>
+            <span>De lunes a viernes de 7 a 17 hs.</span>
+            <div class="subtitle">⦁	Neuquen 2915 - CABA<br></div>
+            <span>Tel: 2088-4047<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Rivadavia 17412 – Morón<br></div>
+            <span>Tel: 7506-4003<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Carlos Gardel 85 - Lanús Oeste<br></div>
+            <span>Tel: 7501-3249<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Tomas Guido 999 – Temperley<br></div>
+            <span>Tel: 2056-9882<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Pellegrini 143 – Quilmes<br></div>
+            <span>Tel: 2081-6919<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Calle 5 nro.630 - La Plata<br></div>
+            <span>Tel: 0221-445-3499<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	3 de Febrero 2385 - Mar del Plata<br></div>
+            <span>Tel: 0223-545-3233<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Mitre 2434 – Rosario<br></div>
+            <span>Tel: 0341-240-5283<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Gral. Lopez 1875 - San Lorenzo<br></div>
+            <span>Tel: 347-622-5798<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Pedro Gallo 197 - Santiago del Estero</div>
+            <span>⦁	De lunes a viernes de 7 a 16 hs.</span>
+
+            <div class="subtitle">⦁	Siria 104 – Salta</div>
+            <span>Tel: 0387-242-4369<br>
+            De lunes a viernes de 7 a 16 hs.</span>
+
+<div class="subtitle">⦁	Av illia 296 local 3. San Salvador de Jujuy </div>
+            <span></span>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-3 ps-4">
+          <p class="unite">¡Unite! Hay equipo.</p>
+          <p class="text">Sumá tu talento <br> a nuestra empresa!</p>
+          <a href="mailto:empleos@lapostal.com.ar" class="enviar btn-rojo-inverted">ENVIAR CV</a>
+          <div class="enacom">
+            <div class="title">ENACOM</div>
+            <a href="https://www.enacom.gob.ar">Enacom</a>
+            <a href="https://www.enacom.gob.ar/centrosatencion/c_4">Atención al usuario ENACOM</a>
+            <a href="https://www.argentina.gob.ar/iniciar-un-reclamo-ante-defensa-de-las-y-los-consumidores">Defensa al consumidor</a>
+            <a href="pdf/ENACOM-CERTIFICADO.pdf">Certificado de prestador postal</a>
+            <a href="pdf/20220127155728068.pdf">Formulario Nº 007<br>
+              AMBITO GEOGRAFICO DEL PRESTADOR</a>
+            <a href="pdf/CODIGO_DE_ETICA_LA_POSTAL.pdf">MANUAL DE ÉTICA DE LATIN AMERICA POSTAL S.A.</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          
+          <a href="quienes_somos.html" class="links"><img src="img/flecha_logo.png" class="logo-navegar" alt=""> QUIENES SOMOS</a>
+<a href="#" class="links"><img src="img/ubicacion_logo.png" class="logo-navegar" alt=""> TRACK ONLINE</a>
+          <a href="https://www.lapostal.com.ar/reservas" class="links"><img src="img/firma_logo.png" class="logo-navegar" alt=""> SOLICITE SU TRÁMITE</a>
+          <a href="servicios_central-monitoreo.html" class="links"><img src="img/transporte_logo.png" class="logo-navegar" alt=""> CENTROS DE DISTRIBUCIÓN</a>
+<a href="sustentabilidad.html" class="links"><img src="img/sustentabilidad.png" class="logo-navegar" alt=""> SUSTENTABILIDAD</a>
+<a href="contacto.html" class="links"><img src="img/contacto.png" class="logo-navegar" alt=""> CONTACTO</a>
+<a href="pdf/Certificado 14001_2023.pdf" class="links"><img src="img/download_logo_2.png" class="logo-navegar" alt=""> CERTIFICACIONES ISO</a>
+        </div>
+      </div>
+      <img src="img/data_fiscal.png" id="data-fiscal" alt="">
+    </div>
+    <div class="mini-banner">
+      <div class="fondo-rojo"></div>
+      <p>LA POSTAL®. Todos los Derechos Reservados. 2023©. Buenos Aires. Argentina.</p>
+    </div>
+  </footer>
+</body>
+</html>

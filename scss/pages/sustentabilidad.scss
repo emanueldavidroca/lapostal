@@ -38,16 +38,16 @@
                     text-align: end;
                 }
             }
-            > strong{
+             strong{
                 margin-left:auto;
-                width: 85%;
+                width: 100%;
                 text-align: center;
+                display: block;
                 font-size: 1rem;
                 line-height: 1.35rem;
-                color: $color-rojo;
+                color: green;
                 padding-right: 2rem;
-                margin-bottom: 0.35rem;
-                text-decoration: underline;
+                margin-bottom: 0.05rem;
             }
             > span{
                 margin-left:auto;
@@ -55,7 +55,8 @@
                 text-align: center;
                 font-size: 1rem;
                 line-height: 1.35rem;
-                color: $color-rojo;
+                color: black;
+                font-weight: bold;
                 padding-right: 2rem;
                 margin-bottom: 0.75rem;
             }
@@ -67,7 +68,7 @@
                 
                 padding-right: 2rem;
                 li{
-                    color: $color-rojo;
+                    color: black;
                     font-size: 1rem;
                     line-height: 1.3rem;
                 }
@@ -79,10 +80,11 @@
                 text-align: end;
                 font-size: 0.95rem;
                 line-height: 1.3rem;
-                color: $color-rojo;
+                color: black;
                 margin-bottom: 1rem;
                 margin-top: 1rem;
                 padding-right: 2rem;
+                text-align: justify;
             }
             div{
                 margin-left:auto;
@@ -114,12 +116,18 @@
                 height: 100%;
                 width: 100%;
                 margin-left: auto;
-                background-image: url("../img/sustentabilidad.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                
+                .carousel-inner{
+                    height: 100%;
+                    .carousel-item{
+                        height: 100%;
+                        img{
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
             } 
+            
         }
     }
 }
@@ -158,7 +166,7 @@
                         text-align: left;
                     }
                 }
-                > strong{
+                 strong{
                     margin-left:auto;
                     margin-right:auto;
                     width: 85%;
@@ -242,10 +250,6 @@
                     height: 100%;
                     width: 100%;
                     margin-left: auto;
-                    background-image: url("../img/sustentabilidad.jpg");
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
                     
                 } 
             }

@@ -2,7 +2,8 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
     .banner{
-        background: url("../img/barra_color.png");
+        background: linear-gradient(90deg, rgb(6, 0, 112) 0%, rgb(6, 0, 112) 55%, rgb(255, 0, 17) 95%, rgb(255, 0, 17) 100%);
+        //background: url("../img/barra_color.png");
         background-size: cover;
         //background: rgb(6,0,112);
         //background: 
@@ -12,7 +13,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        width: 72%;
+        width: 100%;
         margin: auto;
         margin-bottom: 2rem;
         span{
@@ -54,6 +55,8 @@
             }
         }
         .columna-1 a{
+            background-size: contain;
+            background-position: center;
             background-image: url("../img/acceso-cliente/LaPostal-img-7.png");
         }
         .columna-2 a{
@@ -104,6 +107,7 @@
                 transition: all 0.25s;
                 line-height: $text-size-2;
                 min-height: calc($text-size-5 * 2);
+                width: 86%;
             }
         }
         
@@ -155,7 +159,7 @@
         .banner{
             padding: 2rem 7rem 1rem 1.5rem;
             align-items: center;
-            width: 92%;
+            width: 100%;
             margin: auto;
             margin-bottom: 2rem;
             span{
